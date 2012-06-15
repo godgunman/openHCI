@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+.datePanel {
+    margin: 20px 0;
+}
+.date {
+    font-weight: bold;
+    font-size: 2.5em;
+    text-align: right;
+    padding: 5px 15px;
+    border-bottom: 2px solid #333;
+}
+.speak {
+    margin-bottom: 15px;
+    border-top: 1px solid #CCC;
+    padding: 5px 10px;
+}
+.speakTime {
+    font-weight: bold;
+    color: #FB0;
+}
+.speakTitle {
+    margin-bottom: 5px;
+}
+.normal .speakTitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E54717;
+}
+.short .speakTitle {
+    color: #942E0F;
+}
+.speakerName {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.speakerJob {
+    color: #555;
+    font-size: .8em;
+}
+.speakerInfo { float: left; }
+.speakerImage { float: left; }
+.speakerImage img {
+    max-width: 48px;
+}
+.passport {
+    margin-top: 5px;
+    color: #00B292;
+    font-size: .9em;
+    font-weight: bold;
+}
+
+#pageContent { margin-top: 0; }
+#dateSelector {
+    font-size: 1.1em;
+    padding: 5px 0 10px 0;
+    background: #CCC;
+    height: 36px;
+    border-bottom: 1px solid #666;
+}
+#dateSelector a {
+    color: #000;
+    text-decoration: none;
+    float: left;
+    width: 56px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 1px solid #666;
+    background: #EEE;
+}
+#dateSelector a.selected {
+    border-color: #000;
+    color: #FFF;
+    font-weight: bold;
+    background: #333;
+}

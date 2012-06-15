@@ -1,0 +1,92 @@
+{% extends "base.html" %}
+
+{% block 3rdLib %}
+<script src="2011/js/galleria.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+{% endblock %}
+
+{% block CustomHead %}
+<link href="2011/css/index.css" rel="stylesheet" type="text/css">
+<script src="2011/js/index.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block PageContent %}
+<section id="intro">
+    <div id="welcome">
+        <div id="welcomeTitle">OpenHCI <span style="color: #FFBB00;">2011</span></div>
+        <div id="welcomeSubtitle">The 2nd Student Organized Workshop on<br>Human-Computer Interaction</div>
+        <div id="activityDate">4 JUL. '11 - 8 JUL. '11</div>
+        <div id="activityLocation">at&nbsp; 
+            <a href="http://www.csie.ntu.edu.tw" target="_blank">
+                Dept. of CSIE, National Taiwan University
+            </a>
+        </div>
+        <div id="map_canvas"></div>
+        <div id="addCalEvent">
+            <a href="https://www.google.com/calendar/hosted/openhci.com/eventaction=TEMPLATE&tmeid=Z2Fib2VnY2ZncTBibjRsZ2EycHM0bWVtMWcgc29kYXNAb3BlbmhjaS5jb20&tmsrc=sodas%40openhci.com" target="_blank">
+            Google Calendar</a> | <a href="files/OpenHCI.ics">Apple iCal</a>
+        </div>
+        <!-- <div id="contact">Connect with OpenHCI: openhci{at}gmail.com | <a href="http://www.flickr.com/photos/openhci/" target="_blank">Flickr</a></div> -->
+        <div id="version">
+            <a href="/m/">Mobile Website</a> | <a href="http://2009.openhci.com/" target="_blank">OpenHCI 2009</a>
+        </div>
+        <div id="host" style="text-align: center; margin-top: 10px; font-size: 1.3em; font-weight: bold; margin-top: 15px;">
+            <a style="display: block; margin-bottom: 15px;" href="http://www.inm.ntu.edu.tw" target="_blank">國立台灣大學 資訊網路與多媒體研究所<br><span style="font-size: .7em;">Graduate Institute of Networking and Multimedia, NTU</span></a>
+            <a style="display: block;" href="http://www.dt.ntust.edu.tw/" target="_blank">國立台灣科技大學 工商業設計系研究所<br><span style="font-size: .7em;">Dept. of Industrial and Commercial Design, NTUST</span></a>
+        </div>
+    </div>
+    {% if false %}
+    <div id="gallery">
+        <img src="/2011/images/intro/intro_0{{ introNumber }}.jpg">
+    </div>
+    {% endif %}
+    <div id="information">
+        <a id="proceeding" href="/files/ProceedingOfOpenHCI2011.pdf" target="_blank">Proceedings of OpenHCI 2011 &gt;</a>
+        {% if false %}
+        <div id="finalDemo">
+            <div id="finalDemoImage"><img src="/2011/images/final/{{ randomNumber }}.png" style="width: 100%;"></div>
+        </div>
+        {% endif %}
+        <div id="description">
+            <p>OpenHCI 2011 is the 2nd workshop on HCI held in National Taiwan University. This workshop was initiated and organized by graduate students of National Taiwan University and National Taiwan University of Science and Technology. The main purposes of this workshop are opening the potential power of cross-disciplinary communication and collaboration and the preliminary knowledge of user experience engineering (UXE) and human-centered design (HCD).</p> 
+            <p>More than 100 student participants join this event. Attendees are from different domains such as information engineering, industrial design, psychology, business, and administration. In this 5-day workshop, all attendees have tutorials and courses about HCI design processes and principles in 9 different topics. We also develop a series of post-lesson activities and labs for attendees to familiar these principles by practices. Through the complete training, all the attendees would experience several user-centered design iterations, collaborate with their cross-domain partners, and implement interactive prototypes for realizing their concepts.</p>
+            <p></p>
+            <p>OpenHCI 2011 Program Chairs<br>Rong-Hao Liang and Tsung-Ping Lai</p>
+        </div>
+    </div>
+    <div class="clear"></div>
+    <div style="width: 640px; margin: 30px auto;">
+        <iframe id="videoFrame" width="640" height="390" src="http://www.youtube.com/embed/c1Njjm8AkA0?rel=0" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div id="sponsors">
+        <img src="/2011/images/sponsors/qr.jpg">
+        <img src="/2011/images/sponsors/ur.jpg">
+        <img src="/2011/images/sponsors/idm.jpg">
+        <img src="/2011/images/sponsors/as.jpg">
+        <img src="/2011/images/sponsors/ot.jpg">
+        <img src="/2011/images/sponsors/sg.png">
+    </div>
+</section>
+{% if false %}
+<section id="feature">
+    <div id="featureList">
+        <a href="http://www.flickr.com/photos/openhci/" target="_blank" class="featureItem">
+            <span style="font-weight: bold; font-size: 1.4em;">OpenHCI 2009</span><br>
+            find us on flickr<br><br>
+            <img src="/2011/images/flickr_pale.png" style="width: 80%; margin-top: 5px;">
+        </a>
+	<a class="featureItem fullImage" href="http://2009.openhci.com/" target="_blank">
+	    <img src="/2011/images/2009logo_pale.png" style="width: 100%; margin: 0; border-radius: 5px;">
+	</a>
+	<a class="featureItem" href="/passport/">
+	    <div style="margin-top: 20px; font-size: 2em; font-weight: 900; color: #D92F00;">
+	        OpenHCI Passport
+	    </div>
+	    <span style="font-size: 1.25em">第二波參加辦法6/28 0:00公布</span>
+        </a>
+	    <div class="featureItem">&nbsp;</div>
+	    <div class="clear"></div>
+    </div>
+</section>
+{% endif %}
+{% endblock %}

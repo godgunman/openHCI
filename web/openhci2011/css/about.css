@@ -1,0 +1,23 @@
+@CHARSET "UTF-8";
+
+#pageTitle { width: 100%; float: none; margin-bottom: 25px; }
+#pageContent { width: 100%; font-size: 1.1em; float: none; }
+
+.chair { margin-bottom: 10px; }
+.chairTitle {
+    font-weight: 400;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #E54717;
+}
+.chair li { margin: 0 0 5px 25px; }
+.chair li .name { font-weight: bold; }
+.chair li .school { font-size: .8em; color: #555; font-weight: bold; }
+.chair li .teacher { font-size: .8em; color: #555; }
+.chair .gallery img { border: 3px solid #FFF; max-width: 64px; }
+
+/* FFDDAA */
+.chair li.hover {}
+.chair .gallery img.hover {}
+
+.gallery { display: none; }

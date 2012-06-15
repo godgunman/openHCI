@@ -1,0 +1,30 @@
+CACHE MANIFEST
+# rev 2
+
+# Reset CSS
+/css/reset.css
+# Google Fonts
+http://fonts.googleapis.com/css?family=Lato:light,regular,regularitalic,bold,bolditalic,900
+# jQuery
+https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js
+
+/images/person/cll.jpg
+/images/person/cyl.jpg
+/images/person/hb.jpg
+/images/person/hyp.jpg
+/images/person/lrh.png
+/images/person/mc.png
+/images/person/tch.png
+/images/person/thh.png
+/images/person/tt.png
+/images/person/wj.png
+/images/person/ym.png
+
+/css/m/base.css
+/css/m/index.css
+
+/js/m/base.js
+/js/m/index.js
+
+NETWORK:
+*
