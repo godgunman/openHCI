@@ -164,19 +164,18 @@ a {
 
 #register_now {
      background-color:#595757;
-    color:white;
+     color:white;
 }
 
 a#register_now:link {
      color: white !important;
      background: #D92F00;
-     font-size: 2em;
+     font-size: 18px;
      font-weight: 900;
      padding: 10px 0;
      padding-left: 5%;
      margin-top: 2%;
-     margin-left: 5px;
-     width: 50%;
+     width: 60%;
      display: block;
 }
 a#register_now:hover {
