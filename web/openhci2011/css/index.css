@@ -130,11 +130,11 @@ a#proceeding:link {
     font-weight: 900;
     padding: 10px 0;
     padding-left: 5%;
-    margin-top: 2%;
-    margin-left: 5px;
-    width: 90%;
+    margin: auto;
+    width: 50%;
     display: block;
     border-radius: 5px;
+    text-align: center;
 }
 a#proceeding:visited {
     color: #FFF !important;
