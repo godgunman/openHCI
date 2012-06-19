@@ -1,0 +1,340 @@
+body {
+	background-color:#FFFFFF;/*338cb4*/
+	overflow:auto;/*當內容放不下時，加上捲軸的功能。*/
+	/*font-family:Corbel;*/
+	background-position: center top; 
+	background-repeat: no-repeat;
+	margin: 0px;
+	height:100%;
+	overflow: auto;
+	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
+}
+
+
+
+
+/*font family
+@font-face {
+  font-family:Corbel;
+  src: url('Fonts/Corbel.ttf');  
+}*/
+/*-------------------------------------------------header--*/
+#headbg {
+	width:100%;
+	height:80px;
+	background-color:#FFFFFF;/*F7F7F8*/
+	border-bottom: 2px dotted #3D3D3D;/*dashed*/
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	filter:alpha(opacity=9);
+	position:fixed; /*absolute*/
+	z-index:1;
+
+
+}
+/*#headbg:hover {
+	background-color:#006BA9;
+}*/
+#openhci img {
+	width:350px;
+	margin-left:30px;
+	position:fixed; 
+	z-index:2;
+}
+
+/*-------------------------------------------------menu--*/
+#menu {
+	width:270px;
+	height:1200px;
+	overflow:hidden;
+	padding-top:90px;
+	position:fixed; 
+	z-index:0;	
+}
+
+
+/*#menu:hover{
+	background:url(images/OpenHCI00.png) #39A69F;
+}*/
+
+#nav li {
+   
+   
+
+   width:220px;
+   margin-top:20px;
+   margin-left:-12px;
+   padding: 5px 16px;
+   border-bottom: 2px dotted #ddd;
+
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+
+   text-align:left;
+   font-size: 14px;
+   font-family: verdana, Helvetica, Arial, Sans-Serif;
+   vertical-align: middle;
+   list-style:none;
+   letter-spacing:1px; 
+}
+a {
+	text-decoration: none;
+	color: #ce4b61;
+}
+
+#nav li:hover {
+    background: #2183c4; 
+    background: 
+		-webkit-gradient(
+			linear, 
+			left top, 
+			left bottom, 
+			from(#0771b8), 
+			to(#2183c4)
+		);     
+	background: 
+		-moz-linear-gradient(
+			top, 
+			#0771b8, 
+			#2183c4
+		); 
+    /* support Safari, Chrome */
+	-webkit-border-radius: 3px;
+	/* support firefox */
+	-moz-border-radius: 3px;
+	border-radius: 3px;      
+	-moz-box-shadow:1px 1px 5px #ddd;
+	-webkit-box-shadow:1px 1px 5px #ddd;
+	box-shadow:1px 1px 5px #ddd;
+   }
+
+
+
+
+
+/*---------------------------------------------menu----content--*/
+#content {
+	background-color:#FFFFFF;
+	font-size:12px;
+	float:right;
+	width:810px;
+	text-align:justify; 
+	border: 2px dotted #3D3D3D;
+	margin-left:295px;
+	margin-right:50px;
+	margin-top:110px;
+	margin-bottom:100px;
+	padding: 50px 50px 50px 50px;
+
+	position: absolute;
+}
+#content2 {
+	font-size:12px;
+	float:right;
+	width:810px;
+	text-align:justify; 
+	border: 2px dotted #3D3D3D;
+	margin-left:295px;
+	margin-right:50px;
+	margin-top:110px;
+	margin-bottom:100px;
+	padding: 50px 50px 50px 50px;
+
+	position: absolute;
+}
+#content3 {
+	font-size:12px;
+	float:right;
+	width:810px;
+	text-align:justify; 
+	border: 2px dotted #3D3D3D;
+	margin-left:295px;
+	margin-right:50px;
+	margin-top:110px;
+	margin-bottom:100px;
+	padding: 50px 50px 50px 50px;
+
+	position: absolute;
+}
+
+#content4 {
+	font-size:12px;
+	float:right;
+	width:810px;
+	text-align:justify; 
+	border: 2px dotted #3D3D3D;
+	margin-left:295px;
+	margin-right:50px;
+	margin-top:110px;
+	margin-bottom:100px;
+	padding: 50px 50px 50px 50px;
+
+	position: absolute;
+}
+#content5 {
+	font-size:12px;
+	float:right;
+	width:810px;
+	text-align:justify; 
+	border: 2px dotted #3D3D3D;
+	margin-left:295px;
+	margin-right:50px;
+	margin-top:110px;
+	margin-bottom:100px;
+	padding: 50px 50px 50px 50px;
+
+	position: absolute;
+}
+#content6 {
+	font-size:12px;
+	float:right;
+	width:810px;
+	text-align:justify; 
+	border: 2px dotted #3D3D3D;
+	margin-left:295px;
+	margin-right:50px;
+	margin-top:110px;
+	margin-bottom:100px;
+	padding: 50px 50px 50px 50px;
+
+	position: absolute;
+}
+.information {
+	color: #006BA9;/*39A69F*/
+	font-weight:bold;
+	font-size:30px;
+	letter-spacing:3px;
+	margin-top:15px; 
+	margin-bottom:15px;
+	padding-bottom:10px;
+	border-bottom: 2px solid #2e2e2e;
+}
+.description {
+	letter-spacing:1px;
+	line-height:20px; 
+}
+
+/*---------------------------------------------program---表格--*/
+.programPP {
+	float: left;
+	padding-right:7px;
+	margin-left:5px;
+}
+
+.day {
+	background-color:#EBBA2C;
+	width:78px;
+	color: #FFFFFF;
+	font-weight:bold;
+	font-size:30px;
+	letter-spacing:3px;
+	margin-top:15px; 
+	margin-bottom:15px;
+	padding-left:13px;
+}
+/*short - 粉紅 */
+.addressTitleshort {	
+	color:#896239;
+}
+.shortKey td {
+	border-bottom: 2px dotted #000000;
+}
+.addressTitle td {
+	border-bottom: 2px dotted #000000;
+}
+/*演講時間-綠*/
+.addressTime {
+	color:#44A69F;
+}
+/*演講框*/
+.speaker td {
+	border-bottom: 2px dotted #000000;
+}
+/*演講題目-藍*/
+.addressTitleName {
+	color:#FFFFFF;/*0071B9 藍*/
+	font-size:16px;
+	margin-right:5px;
+}
+.addressBB td {
+	background-color:#0071B9;/*CE4B61 粉紅*/
+	text-align:right;
+}
+.speakerInfo {
+	text-align:right;
+}
+.speakerImage img {
+	border-radius: 8px;
+	margin-top:8px;
+	margin-left:30px;
+	margin-bottom:8px;
+	box-shadow:0px 0px 5px #D7D7D7;
+}
+.addressPassport td {
+	text-align:right;
+	background-color:#D7D7D7;
+}
+.clear {
+	clear:left; 
+	border-bottom:2px solid #0071B9;
+	margin-bottom:20px;
+	background-color:#FFFFFF;
+	height:20px;
+	
+}
+/*-------------------------------------------Resgister-----*/
+.desTitle {
+	color:#EBBA2C;
+	font-size:18px;
+	padding-bottom:5px;
+	margin-top:20px;
+	margin-bottom:10px;
+	border-bottom:2px dotted #0071B9;
+}
+
+/*-------------------------------------------Committee-----*/
+#commi01,#commi02 {
+	float: left;
+	width:350px;
+	margin-left:40px;
+	text-align:justify;
+}
+#commi01 li {
+	font-size:16px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#896239;
+}
+#commi02 li {
+	font-size:16px;
+	margin-top:5px;
+	margin-bottom:5px;
+	color:#896239;
+}
+/*-------------------------------------------------footer--*/
+#footer {
+	font-size:12px;
+	text-align:right;
+	/*background-color:#D7D7D7;*/
+	border-top: 1px dotted #3D3D3D;
+	background-color:#F7F7F8;
+	padding: 6px 20px 6px 10px;
+
+	opacity: 0.4;
+	-moz-opacity: 0.4;
+	filter:alpha(opacity=4);
+
+   	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:98%;
+	z-index:2; 
+
+}
+#footer:hover {
+	opacity: 1;
+	-moz-opacity: 1;
+	filter:alpha(opacity=1);
+}
+

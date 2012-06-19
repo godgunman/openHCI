@@ -1,0 +1,68 @@
+application: ntu-openhci
+version: 2012
+runtime: python
+api_version: 1
+
+handlers:
+  
+# Pages
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /index.html
+  static_files: index.html
+  upload: index.html
+
+- url: /passport.html
+  static_files: passport.html
+  upload: passport.html
+
+- url: /program.html
+  static_files: program.html
+  upload: program.html
+
+- url: /programM.html
+  static_files: programM.html
+  upload: programM.html
+
+- url: /registration.html
+  static_files: registration.html
+  upload: registration.html
+
+- url: /about.html
+  static_files: about.html
+  upload: about.html
+
+- url: /intro.html
+  static_files: intro.html
+  upload: intro.html
+
+# CSS
+- url: /css
+  static_dir: css
+  
+# JavaScript
+- url: /js
+  static_dir: js
+  
+# Images
+- url: /images
+  static_dir: images
+
+# Files
+- url: /files/
+  static_dir: files
+
+# Fonts
+- url: /fonts/
+  static_dir: fonts
+
+# favicon.ico
+- url: /favicon.ico
+  static_files: images/favicon.ico
+  upload: images/favicon.ico
+
+# Not found
+- url: /.*
+  script: NotFound.py

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block CustomHead %}
+<link href="/css/404.css" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block PageContent %}
+<div id="notFound">
+    <div id="notFoundTitle">sorry, this page is not available.</div>
+    The URL "{{ path }}" you requested is not available in our site.
+    <div id="brokenLink">broken link?</div>
+    please tell us via the following form.
+    <form action="/brokenLink/" method="post">
+        <textarea name="message" placeholder="What link did you pressed? Please contain the page name"></textarea><br>
+        <input type="hidden" name="path" value="{{ path }}">
+        <button>Send and back to site home</button>
+    </form>
+</div>
+{% endblock %}

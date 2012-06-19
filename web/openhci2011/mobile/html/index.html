@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block customHead %}
+<link href="/css/m/index.css" rel="stylesheet" type="text/css">
+<script src="/js/m/index.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block content %}
+<nav id="dateSelector">
+	{% for date in address %}
+	<a href="javascript:void(0)" id="link{{ date.pureDate }}">{{ date.date }}</a>
+	{% endfor %}
+</nav>
+<div class="clear"></div>
+
+{% for date in address %}
+<div class="datePanel" id="date{{ date.pureDate }}">
+	<div class="date">{{ date.date }}</div>
+	{% for speak in date.content %}
+		{% if speak.short %}
+		<div class="speak short">
+			<div class="speakTime">{{ speak.addressTime }}</div>
+			<div class="speakTitle">{{ speak.addressTitle }}</div>
+		</div>
+		{% else %}
+		<div class="speak normal">
+			<div class="speakTime">{{ speak.addressTime }}</div>
+			<div class="speakTitle">{{ speak.addressTitle }}</div>
+			{% for speaker in speak.speakers %}
+			<div class="speaker">
+				<div class="speakerImage">
+					<img src="{{ speaker.speakerImage }}">
+				</div>
+				<div class="speakerInfo">
+					<div class="speakerName">{{ speaker.speakerName }}</div>
+					{% for job in speaker.speakerJob %}
+					<div class="speakerJob">{{ job }}</div>
+					{% endfor %}
+				</div>			
+				<div class="clear"></div>
+			</div>
+			{% endfor %}
+			{% if speak.passport %}
+			<div class="passport">開放持Passport入場</div>
+			{% endif %}
+		</div>
+		{% endif %}
+	{% endfor %}
+</div>
+{% endfor %}
+{% endblock %}
