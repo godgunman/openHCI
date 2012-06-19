@@ -1,0 +1,70 @@
+@CHARSET "UTF-8";
+
+#pageTitle { width: 100%; float: none; margin-bottom: 25px; }
+#pageContent { width: 100%; float: none; }
+
+article {
+	margin-bottom: 40px;
+	line-height: 1.25em;
+}
+.articleTitle {
+	font-weight: bold;
+	font-size: 1.25em;
+	margin: 5px 0;
+	color: #FFBB00;
+}
+.regInfo {
+	font-size: 1em;
+	line-height: 1.5em;
+}
+.commentStyle { font-style: italic; }
+
+.namelistSection {
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+.namelistSection:last-child { margin-right: 0; }
+
+.namelist { width: 100%; }
+.namelist td { padding: 7px 4px; }
+.personName {
+	font-size: 1.1em;
+	font-weight: bold;
+}
+.personDept {
+	color: #666;
+}
+.namelist tr td:first-child { padding-right: 5px; min-width: 45px; }
+.namelist tr td:last-child {  }
+.namelist tr.odd td { background: #EFEFEF; }
+
+.teamTablePanel {
+    float: left;
+    width: 20%;
+    margin-bottom: 50px;
+    margin-right: 5%;
+    font-size: .85em;
+}
+.teamTable {
+    width: 100%;
+}
+.teamTable tr td {
+    padding: 5px;
+}
+.teamTable tr td {
+    border-bottom: 1px solid #CCC;
+}
+.teamTable tr:first-child td {
+    border-bottom: 2px solid #999;
+    background: #DDD;
+}
+.teamTable tr:last-child td {
+    border-bottom: 2px solid #666;
+}
+.teamTable tr td:first-child {
+    width: 40%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.teamTable tr td:last-child { width: 60%; }

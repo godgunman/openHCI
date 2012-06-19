@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+
+{% block PageTitle %}Program - OpenHCI 2011{% endblock %}
+{% block CustomHead %}
+<link href="/2011/css/program.css" rel="stylesheet" type="text/css">
+<script src="/2011/js/program.js" type="text/javascript"></script>
+{% endblock %}
+
+{% block PageContent %}
+<section id="pageTitle" >Program</section>
+<section id="pageContent">
+    <div style="font-size: 1.2em; line-height: 1.5em;">
+        <div id="info">
+            <div style="float: right; text-align: right;">
+                7/4 '11 - 7/8 '11 at <a href="http://www.csie.ntu.edu.tw" target="_blank">Dept. of CSIE, National Taiwan University</a>
+            </div>
+            <div style="float: left; font-weight: bold;">
+                {% if language == "en_US" %}
+                    <a href="/program/">正體中文</a> | ENGLISH
+                {% else %}
+                    正體中文 | <a href="/program/?l=en_US">ENGLISH</a>
+                {% endif %}
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="daySection">
+        {% for day in address %}
+        <table class="program">
+            <tr class="eventDay">
+                <td></td>
+                <td></td>
+                <td class="day" rowspan="{{ day.content|length }}">{{ day.date }}</td>
+            </tr>
+	        {% for speak in day.content %}
+	           {% if speak.short %}
+	           <tr class="shortKey">
+	              <td colspan="2"><span class="addressTime">{{ speak.addressTime }}</span>&nbsp;&nbsp;&nbsp;
+	              <span class="addressTitle short">
+	                   {% if language == "en_US" and speak.addressTitleEn %}
+                           {{ speak.addressTitleEn }}
+                       {% else %}
+                           {{ speak.addressTitle }}
+                       {% endif %}
+	              </span></td>
+	           </tr>
+	           <tr><td></td><td></td></tr>
+	           {% else %}
+	           <tr class="addressTime">
+                  <td colspan="2">{{ speak.addressTime }}</td>
+               </tr>
+               <tr class="addressTitle">
+                   <td colspan="2">
+                       <span class="addressTitleName">
+                        {% if language == "en_US" and speak.addressTitleEn %}
+                            {{ speak.addressTitleEn }}
+                        {% else %}
+                            {{ speak.addressTitle }}
+                        {% endif %}
+                       </span>
+                       {% if speak.passport %}<br>
+                       <span class="addressPassport">
+                       {% if language == "en_US" %}
+                           Passport Available
+                       {% else %}
+                           開放持Passport入場
+                       {% endif %}
+                       </span>{% endif %}
+                   </td>
+               </tr>
+	           {% endif %}
+	           {% for speaker in speak.speakers %}
+	           <tr class="speaker {% if speak.talk %}talk{% endif %}">
+	           {% if not speak.short %}
+	           {% if not speak.speakerEmpty %}
+	               <td class="speakerImage">{% if speaker.speakerImage %}<img src="{{ speaker.speakerImage }}">{% endif %}</td>
+	               <td class="speakerInfo">
+	                   <span class="speakerName">
+	                      {{ speaker.speakerName }}
+	                   </span><br>
+	                   {% if language == "en_US" %}
+		                   {% for job in speaker.speakerJobEn %}
+		                   <span class="speakerJob">{{ job }}</span><br>
+	                       {% endfor %}
+	                   {% else %}
+	                       {% for job in speaker.speakerJob %}
+                           <span class="speakerJob">{{ job }}</span><br>
+                           {% endfor %}
+                       {% endif %}
+                       {% if speaker.speakerPage %}
+                           <a href="{{ speaker.speakerPage }}" target="_blank">{{ speaker.speakerPage }}</a>
+                       {% endif %}
+	               </td>
+	            {% else %}
+	               <td></td><td></td>
+	            {% endif %}
+	            {% else %}
+	               <td></td><td></td>
+	            {% endif %}
+	            </tr>
+	            {% endfor %}
+	         {% endfor %}
+        </table>
+        {% if day.break %}
+        </div><div class="daySection">
+        {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+</section>
+<div class="clear"></div>
+{% endblock %}

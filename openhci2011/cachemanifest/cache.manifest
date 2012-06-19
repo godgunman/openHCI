@@ -1,0 +1,60 @@
+CACHE MANIFEST
+# rev 62
+#{{ specialRevison }}
+
+# Reset CSS
+/css/reset.css
+# Google Fonts
+http://fonts.googleapis.com/css?family=Crimson+Text:regular,regularitalic,600,bold,bolditalic
+http://fonts.googleapis.com/css?family=Lato:light,regular,regularitalic,bold,bolditalic,900
+# jQuery
+https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js
+# Image
+/images/intro/intro_01.jpg
+/images/intro/intro_02.jpg
+/images/intro/intro_03.jpg
+/images/intro/intro_04.jpg
+/images/intro/intro_05.jpg
+/images/intro/intro_06.jpg
+/images/flickr_pale.png
+/images/flickr.png
+/images/2009logo_pale.png
+/images/2009logo.png
+/images/person.png
+/images/person/cll.jpg
+/images/person/cyl.jpg
+/images/person/hb.jpg
+/images/person/howie.jpg
+/images/person/hyp.jpg
+/images/person/keynes.png
+/images/person/lrh.png
+/images/person/mc.png
+/images/person/sodas.png
+/images/person/tch.png
+/images/person/thh.png
+/images/person/tt.png
+/images/person/wj.png
+/images/person/ym.png
+/images/final/0.png
+/images/final/1.png
+/images/final/2.png
+/images/final/3.png
+/images/final/4.png
+/images/final/5.png
+/images/final/6.png
+# CSS
+/css/404.css
+/css/base.css
+/css/about.css
+/css/index.css
+/css/program.css
+/css/passport.css
+# JS
+/js/base.js
+/js/about.js
+/js/galleria.js
+/js/index.js
+/js/program.js
+
+NETWORK:
+*

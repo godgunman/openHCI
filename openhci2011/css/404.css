@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+#notFound {
+	margin-left: 7.5%;
+}
+
+#notFoundTitle {
+	font-size: 2em;
+	font-weight: 700;
+	margin-bottom: 5px;
+}
+
+#brokenLink {
+	color: #00A889;
+	font-weight: bold;
+	font-size: 1.2em;
+	margin-top: 30px;
+}
+
+form {
+	margin: 10px 0;
+}
+
+textarea {
+	width: 35%;
+	height: 70px;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px solid #999;
+	font-family: Lato, sans-serif;
+	font-size: 1em;
+	outline-width:0;
+	resize: none;
+}
+textarea:focus {
+	background: #FEC;
+	font-weight: bold;
+}
+
+button {
+	padding: 5px 15px;
+	border: 1px solid #999;
+	border-radius: 5px;
+	background: #FFF;
+	font-size: 1em;
+	color: #666;
+	cursor: pointer;
+}
+button.hover {
+	color: #000;
+	border-color: #E54717;
+	background: #FEC;
+}

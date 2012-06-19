@@ -1,0 +1,100 @@
+body {
+	background-color:#FFFFFF;/*338cb4*/
+	overflow-x:hidden; 
+	overflow-y:visible;
+	background-position: center top; 
+	margin: 0px;
+	height:100%;
+	width:100%;
+
+	letter-spacing:1px;
+	line-height:20px; /*行距*/
+	font-family: verdana,"微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
+}
+/*font family*/
+@font-face {
+  font-family:MenNefer;
+  width:bold;
+  src: url('http://db.tt/DHQBe37Y');  
+}
+
+#headbg {
+	/*width:100%;
+	height:224px;
+	background:url(images/openTop1386.jpg);
+	margin: 0 auto;*/
+	position:absolute; /*absolute*/
+	width:100%;
+	height:280px;
+	background:url(images/openToprepeat.jpg) repeat;
+	z-index:0;
+}
+
+
+#headbg img {
+	 width:1347px; 
+	 height:224px;
+}
+
+#openhci img {
+	width:700px;
+	margin-top:20px;
+	margin-left:30px;
+	position:absolute; 
+	z-index:1;
+}
+
+/*-------------------------------------------------menu--*/
+#menu {
+	padding-top:130px;
+	padding-left:60px;
+	z-index:3;	
+}		
+
+#nav a {
+   float:left;
+   width:160px;
+   height:25px;
+   margin-top:8px;
+   margin-left:8px;
+   padding: 10px 8px 10px 10px;
+   
+   background-color:#FFF;
+   color:#ce4b61;
+   
+   -webkit-border-radius: 2px;
+   -moz-border-radius: 2px;
+   border-radius: 2px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0 1px;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0 1px;
+   box-shadow: #c7c7c7 0px 1px 0 1px;
+   text-shadow: #c7c7c7 0 1px 1px;
+   
+   opacity: 0.9;
+   -moz-opacity: 0.9;
+   filter:alpha(opacity=9);
+
+   
+   text-align:center;
+   list-style:none;
+   font-size:18px;
+   font-family:MenNefer;
+}
+
+
+#nav a:active {    
+   background-color:#FFF;
+   color:#ce4b61;
+   box-shadow:inset #006BA9 0px 1px 2px;
+   -webkit-box-shadow:inset #006BA9 0px 1px 2px;
+   -moz-box-shadow:inset #006BA9 0px 1px 2px;
+}
+#nav a:hover {
+	border-bottom: 0px solid #006BA9;
+}
+a {
+	text-decoration: none;
+	color:#ce4b61;
+}
+
+/*---------------------------------------------menu----content--*/

@@ -1,0 +1,22 @@
+@CHARSET "UTF-8";
+
+.articleTitle {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #FB0;
+    margin-top: 30px;
+}
+
+.articleContent {
+    font-size: 1em;
+}
+.articleContent p {
+    line-height: 1.25em;
+}
+.articleContent .strong {
+    font-weight: bold;
+    color: #D92F00;
+}
+.articleContent pre {
+    font-size: 1.1em;
+}

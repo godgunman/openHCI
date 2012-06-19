@@ -1,0 +1,75 @@
+@CHARSET "UTF-8";
+
+header { margin-bottom: 10px; }
+
+#pageTitle { width: 0%; display: none; }
+#pageContent { width: 100%; font-size: .9em; }
+
+#info {
+	padding-top: 20px;
+	margin-bottom: 10px;
+	font-size: 1.2em;
+}
+
+.program {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.daySection {
+	float:left;
+	width: 48%;
+	margin-right: 4%;
+}
+.daySection:last-child { margin-right: 0; }
+
+.addressTitle td, .speaker td {
+    padding: 2px 0;
+}
+
+.addressTitleName {
+    font-weight: 400;
+    color: #E54717;
+    font-size: 1.25em;
+}
+.addressTitle.short { font-size: .9em; color: #942e0f; }
+.addressTime {
+    font-size: .9em;
+    font-weight: bold;
+    color: #FFBB00;
+}
+.addressPassport {
+    font-size: .9em;
+    color: #00B292;
+    font-weight: bold;
+}
+.shortKey td, .addressTime td {
+	border-top: 1px solid #CCC;
+	padding-top: 10px;
+}
+.shortKey:nth-child(2) td, .addressTime:nth-child(2) td {
+	border-top: none;
+}
+
+.speakerName {
+	font-weight: bold;
+}
+.speakerJob {
+	color: #666;
+	font-size: .8em;
+}
+.speakerImage { vertical-align: top; }
+.speakerImage img { max-width: 64px; border-radius: 3px; }
+.speaker:last-child td, .speaker.talk td { border-bottom: none; }
+.speakerIntro { font-style: italic; }
+
+.day {
+	padding-top: 10px;
+	padding-left: 25px;
+	vertical-align: top;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+.eventDay td {
+	border-top: 2px solid #333;
+}

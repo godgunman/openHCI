@@ -1,0 +1,121 @@
+application: ntu-openhci
+version: merge
+runtime: python
+api_version: 1
+
+handlers:
+# Global
+
+- url: /
+  static_files: openhci2012/index.html
+  upload: openhci2012/index.html
+
+# 2012 ----------------------------------------------------------------------------
+
+# Pages
+
+- url: /2012
+  static_files: openhci2012/index.html
+  upload: openhci2012/index.html
+
+- url: /2012/index.html
+  static_files: openhci2012/index.html
+  upload: openhci2012/index.html
+
+- url: /2012/passport.html
+  static_files: openhci2012/passport.html
+  upload: openhci2012/passport.html
+
+- url: /2012/program.html
+  static_files: openhci2012/program.html
+  upload: openhci2012/program.html
+
+- url: /2012/registration.html
+  static_files: openhci2012/registration.html
+  upload: openhci2012/registration.html
+
+- url: /2012/about.html
+  static_files: openhci2012/about.html
+  upload: openhci2012/about.html
+
+- url: /2012/intro.html
+  static_files: openhci2012/intro.html
+  upload: openhci2012/intro.html
+
+# CSS
+- url: /2012/css
+  static_dir: openhci2012/css
+  
+# JavaScript
+- url: /2012/js
+  static_dir: openhci2012/js
+  
+# Images
+- url: /2012/images
+  static_dir: openhci2012/images
+
+# Fonts
+- url: /2012/fonts/
+  static_dir: openhci2012/fonts
+
+
+# 2011 ----------------------------------------------------------------------------
+
+# Homepage
+- url: /2011
+  script: openhci2011/Root.py
+  
+# Pages
+- url: /2011/about/
+  script: openhci2011/About.py
+- url: /2011/goals/
+  script: openhci2011/IntroAndGoals.py
+- url: /2011/program/
+  script: openhci2011/Program.py
+- url: /2011/registration/
+  script: openhci2011/Registration.py
+- url: /2011/intro/
+  script: openhci2011/IntroAndGoals.py
+- url: /2011/passport/
+  script: openhci2011/Passport.py
+- url: /2011/introAndGoals/
+  script: openhci2011/IntroAndGoals.py
+- url: /2011/final/
+  script: openhci2011/Final.py
+
+# CSS
+- url: /2011/css
+  static_dir: openhci2011/css
+  
+# JavaScript
+- url: /2011/js
+  static_dir: openhci2011/js
+  
+# Images
+- url: /2011/images
+  static_dir: openhci2011/images
+
+# Files
+- url: /2011/files/
+  static_dir: openhci2011/files
+
+# HTML5 Cache manifest
+#- url: /manifest/(mobile|)cache.manifest
+#  script: cachemanifest/CacheManifest.py
+
+# Mobile
+- url: /2011/m/
+  script: openhci2011/mobile/Mobile.py
+  
+# favicon.ico
+- url: /2011/favicon.ico
+  static_files: openhci2011/favicon.ico
+  upload: openhci2011/images/favicon.ico
+  
+# Broken Link Report
+- url: /2011/brokenLink/
+  script: openhci2011/contact/BrokenLink.py
+
+# Not found
+- url: /2011/.*
+  script: openhci2011/NotFound.py
