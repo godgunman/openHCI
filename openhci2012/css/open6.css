@@ -173,7 +173,7 @@ a#register_now:link {
      font-size: 18px;
      font-weight: 900;
      padding: 10px 0;
-     padding-left: 5%;
+     padding-left: 15px;
      margin-top: 2%;
      width: 60%;
      display: block;
@@ -256,7 +256,7 @@ a#register_now:hover {
      font-size:20px;
      margin-top:20px;
      margin-bottom:10px;
-     border-bottom:2px solid #0071B9;
+     border-bottom:2px solid #007DC3;
      letter-spacing:2px;
      text-transform:uppercase;
 }
