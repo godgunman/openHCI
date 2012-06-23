@@ -227,6 +227,16 @@ a#register_now:hover {
      color:#727171;
 }
 
+/*-------------------------------------------Index---------*/
+.announcement {
+    width:525px;
+    font-size:14px;
+    color:#534E3E;
+    padding:10px 10px 20px 15px;
+    background-color:#C9BE97;
+    letter-spacing:2px;
+}
+
 /*-------------------------------------------Committee-----*/
 #commi01,#commi02,#commi03 {
      float: left;
