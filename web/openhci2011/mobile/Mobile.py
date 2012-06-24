@@ -7,8 +7,8 @@ from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
 from google.appengine.ext.webapp.util import run_wsgi_app
 
-from Constants import debugMode
-from Program import addressInfo
+from openhci2011.Constants import debugMode
+from openhci2011.Program import addressInfo
 
 class MobilePage(webapp.RequestHandler):
     def get(self):
@@ -16,7 +16,7 @@ class MobilePage(webapp.RequestHandler):
         pagePath = os.path.join(os.path.dirname(__file__), "html/index.html")
         self.response.out.write(template.render(pagePath, pageDict))
 
-application = webapp.WSGIApplication([("/m/", MobilePage)], debug=debugMode)
+application = webapp.WSGIApplication([("/2011/m/", MobilePage)], debug=debugMode)
 
 def main():
     run_wsgi_app(application)
