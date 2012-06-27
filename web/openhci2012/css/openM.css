@@ -1,0 +1,224 @@
+body {
+	background-color:#DEDEDE;/*338cb4*/
+	overflow-x:hidden; 
+	overflow-y:visible;
+	background-position: center top; 
+	margin: 0px;
+	height:100%;
+	width:100%;
+
+	letter-spacing:1px;
+	line-height:20px; /*行距*/
+	font-family: verdana,"微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
+}
+
+/*font family*/
+@font-face {
+  font-family:MenNefer;
+  width:bold;
+  src: url('../fonts/HelveticaNeueLTPro-Lt_1.otf');
+}
+/*-------------------------------------------------header--*/
+header {
+	/*width:100%;
+	height:224px;
+	background:url(images/openTop1386.jpg);
+	margin: 0 auto;
+	position:absolute;*/
+	background-color:#0090D1;
+  padding:25px 0px 25px 25px;
+}
+#title img {
+  width:200px;
+}
+#subtitle {
+  font-size:12px;
+  color:#FFF;
+  letter-spacing:0px;
+}
+/*menu*/
+#dateSelector {
+  text-align:center;
+  cursor:pointer;
+  background-color:#FFF;
+  height:63px;
+  margin-bottom:20px;
+  padding:10px 0px 5px 10px;
+}
+
+
+#dateSelector a {
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  padding:5px 5px 5px 5px;
+  text-align:center;
+  font-size:20px;
+  text-decoration: none;
+  color:#000;
+}
+#dateSelector a:hover {
+   background-color:#535353;
+   color:#fff;
+   cursor:pointer;
+}
+
+
+/*-------------------------------------------menu----content--*/
+
+
+#ProgramContent {
+     background-color:#FFF;
+     /*text-align:justify;*/	
+     font-size:12px;
+     width:100%;
+     padding-bottom:70px;
+     float:left;
+     margin:0px 0px 0px 0px;
+     letter-spacing:0px;
+     color:#727171;
+     line-height:1.5em;
+}
+/*about hci*/
+.description {
+  text-align:justify;
+  line-height:1.5em;
+  padding-right:15px;
+  padding-left:15px;
+  margin:20px 10px 20px 10px;
+}
+.map {
+  text-align:center;
+  padding-right:15px;
+  padding-left:15px;
+  margin:20px 10px 20px 10px;
+}
+.map img {
+
+  width:100%;
+}
+/*---------------------------------------------program---表格--*/
+.programPP {
+     
+     padding-right:15px;
+     padding-left:15px;
+     margin-top:30px;
+     width:100%;
+}
+
+.day td {
+
+      /*-webkit-border-top-left-radius: 10px;
+      -webkit-border-top-right-radius: 10px;
+      -moz-border-radius-topleft: 10px;
+      -moz-border-radius-topright: 10px;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;*/
+     /*background-color:#CE4B61;*/
+     /*background:url(images/grid3.png);*/
+     background-color:#0099d2;
+     color: white;
+     /*border: 2px dotted #1390B7;*/
+     /*border-radius:5px;*/
+
+     font-weight:bold;
+     font-size:12px;
+
+     line-height:1.2em;
+     margin:20px 30px 20px 30px ;
+     padding:10px 10px 10px 5px;
+
+
+}
+.dayDown td {
+  /*-webkit-border-bottom-right-radius: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;*/
+  background-color:#0099d2;
+  height:30px;
+}
+
+/*short - 粉紅 */
+.addressTitleshort {	
+     color:#896239;
+}
+.shortKey td {
+     border-bottom: 1px dotted #000000;
+}
+.addressTitle td {
+     border-bottom: 1px dotted #000000;
+}
+/*演講時間-綠*/
+.addressTime {
+     color:#44A69F;
+     margin-left:5px;
+}
+.addressTalkTime {
+     color:#FFF;
+     margin-left:0px;
+}
+/*演講框*/
+.speaker td {
+     border-bottom: 1px dotted #000000;
+}
+/*演講題目-藍*/
+.addressTitleName {
+     color:#FFFFFF;/*0071B9 藍*/
+     font-size:12px;
+     margin-right:5px;
+     padding-left:5px;
+}
+.addressBB td {
+     background-color:#535353;/*CE4B61 粉紅*/
+     padding:3px;
+     text-align:left;
+}
+.speaker td {
+     width:70%;
+}
+.speakerInfo {
+     text-align:right;
+}
+.speakerImage img {
+     border-radius: 8px;
+     margin-top:8px;
+     margin-bottom:8px;
+     box-shadow:0px 0px 5px #D7D7D7;
+}
+.addressPassport td {
+     text-align:left;
+     background-color:#D7D7D7;
+     padding-left:10px;
+}
+
+/*-------------------------------------------------footer--*/
+#footer {
+     font-size:12px;
+     text-align:center;
+     letter-spacing:0px;
+     /*background-color:#D7D7D7;*/
+     border-top: 1px dotted #3D3D3D;
+     background-color:#F7F7F8;
+     padding: 6px 20px 6px 10px;
+
+     
+
+     position:fixed;
+     left:0px;
+     bottom:0px;
+     width:98%;
+     z-index:2; 
+
+}
+/*#footer:hover {
+     opacity: 1;
+     -moz-opacity: 1;
+     filter:alpha(opacity=1);
+}*/
+#footer a {
+  color:#0090D1;
+  font-size:14px;
+}

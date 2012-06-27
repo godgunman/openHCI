@@ -18,6 +18,14 @@ handlers:
   static_files: openhci2012/index.html
   upload: openhci2012/index.html
 
+- url: /2012/m_index.html
+  static_files: openhci2012/m_index.html
+  upload: openhci2012/m_index.html
+
+- url: /2012/m_map.html
+  static_files: openhci2012/m_map.html
+  upload: openhci2012/m_map.html
+
 - url: /2012/index.html
   static_files: openhci2012/index.html
   upload: openhci2012/index.html
