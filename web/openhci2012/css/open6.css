@@ -259,6 +259,22 @@ a#register_now:hover {
      color:#896239;
      padding-right:10px;
 }
+
+
+/*-------------------------------------------Team----------*/
+#team {
+     float: left;
+     width:100%;
+     margin-left:2px;
+     margin-right:20px;
+     text-align:justify;
+     letter-spacing:0px;
+}
+#team a {
+     color:#896239;
+     padding-right:10px;
+}
+
 /*-------------------------------------------Resgister-----*/
 .desTitle {
      font-family:MenNefer,"微軟正黑體","Microsoft JhengHei";
