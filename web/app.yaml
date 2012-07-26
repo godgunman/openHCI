@@ -66,6 +66,10 @@ handlers:
 - url: /2012/fonts/
   static_dir: openhci2012/fonts
 
+# Files
+- url: /2012/files/
+  static_dir: openhci2012/files
+
 
 # 2011 ----------------------------------------------------------------------------
 
