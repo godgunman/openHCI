@@ -1,7 +1,8 @@
 application: ntu-openhci
 version: merge
-runtime: python
+runtime: python27
 api_version: 1
+threadsafe: true
 
 handlers:
 # Global
@@ -11,6 +12,8 @@ handlers:
   upload: openhci2012/index.html
 
 # 2012 ----------------------------------------------------------------------------
+
+
 
 # Pages
 
@@ -75,25 +78,25 @@ handlers:
 
 # Homepage
 - url: /2011
-  script: openhci2011/Root.py
+  script: openhci2011.Root.app
   
 # Pages
 - url: /2011/about/
-  script: openhci2011/About.py
+  script: openhci2011.About.app
 - url: /2011/goals/
-  script: openhci2011/IntroAndGoals.py
+  script: openhci2011.IntroAndGoals.app
 - url: /2011/program/
-  script: openhci2011/Program.py
+  script: openhci2011.Program.app
 - url: /2011/registration/
-  script: openhci2011/Registration.py
+  script: openhci2011.Registration.app
 - url: /2011/intro/
-  script: openhci2011/IntroAndGoals.py
+  script: openhci2011.IntroAndGoals.app
 - url: /2011/passport/
-  script: openhci2011/Passport.py
+  script: openhci2011.Passport.app
 - url: /2011/introAndGoals/
-  script: openhci2011/IntroAndGoals.py
+  script: openhci2011.IntroAndGoals.app
 - url: /2011/final/
-  script: openhci2011/Final.py
+  script: openhci2011.Final.app
 
 # CSS
 - url: /2011/css
@@ -117,7 +120,7 @@ handlers:
 
 # Mobile
 - url: /2011/m/
-  script: openhci2011/mobile/Mobile.py
+  script: openhci2011.mobile.Mobile.app
   
 # favicon.ico
 - url: /2011/favicon.ico
@@ -126,8 +129,9 @@ handlers:
   
 # Broken Link Report
 - url: /2011/brokenLink/
-  script: openhci2011/contact/BrokenLink.py
+  script: openhci2011.contact.BrokenLink.app
 
 # Not found
 - url: /2011/.*
-  script: openhci2011/NotFound.py
+  script: openhci2011.NotFound.app
+

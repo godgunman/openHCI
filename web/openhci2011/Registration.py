@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 import os
 import datetime
+import webapp2
 
 from google.appengine.dist import use_library
 use_library("django", "1.2")
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
 from google.appengine.ext.webapp.util import run_wsgi_app
 
 from openhci2011.Constants import debugMode
 
-class RegistrationPage(webapp.RequestHandler):
+class RegistrationPage(webapp2.RequestHandler):
     def get(self):
         pageContent = {"false": False,
                        "namelist": [{"name": "管哲楓", "dept": "台科大工設商設系"},
@@ -130,11 +130,4 @@ class RegistrationPage(webapp.RequestHandler):
         pagePath = os.path.join(os.path.dirname(__file__), "html/registration.html")
         self.response.out.write(template.render(pagePath, pageContent))
     
-application = webapp.WSGIApplication([('/2011/registration/', RegistrationPage)], debug=debugMode)
-
-def main():
-    run_wsgi_app(application)
-    
-if __name__ == "__main__":
-    main()
-
+app= webapp2.WSGIApplication([('/2011/registration/', RegistrationPage)], debug=debugMode)

@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 import os
+import webapp2
 
 from google.appengine.dist import use_library
 use_library("django", "1.2")
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp import template
 from google.appengine.ext.webapp.util import run_wsgi_app
 
@@ -249,7 +249,7 @@ addressInfo = [ {"date":" 7/4",
                    }
               ]
 
-class ProgramPage(webapp.RequestHandler):
+class ProgramPage(webapp2.RequestHandler):
     def get(self):
         language = self.request.get("l")
         if language == "":
@@ -259,10 +259,4 @@ class ProgramPage(webapp.RequestHandler):
         pageDict = {"address":addressInfo, "language": language}
         self.response.out.write(template.render(pagePath, pageDict))
     
-application = webapp.WSGIApplication([('/2011/program/', ProgramPage)], debug=debugMode)
-
-def main():
-    run_wsgi_app(application)
-    
-if __name__ == "__main__":
-    main()
+app= webapp2.WSGIApplication([('/2011/program/', ProgramPage)], debug=debugMode)
