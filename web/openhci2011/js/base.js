@@ -18,7 +18,7 @@ $(document).ready(function(){
 		navItemTarget = $("#navMain");
 	if (navItemTarget) navItemTarget.addClass("selected");
 	$("#siteName").click(function(){
-		window.location="/";
+		window.location="/2011";
 	});
 	
 	// Add hover style
