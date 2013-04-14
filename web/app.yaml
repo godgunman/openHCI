@@ -140,3 +140,13 @@ handlers:
 - url: /2011/.*
   script: openhci2011.NotFound.app
 
+
+# 2012 ----------------------------------------------------------------------------
+
+- url: /2009/(.*)
+  static_files: openhci2009/static/\1
+  upload: openhci2009/static/(.*)
+  expiration: "99d"
+
+- url: /2009
+  script: openhci2009.redirect.app
