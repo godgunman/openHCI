@@ -1,10 +1,11 @@
+import webapp2
+
 from Constants import debugMode
 
-from google.appengine.ext import webapp
 from google.appengine.ext.webapp.util import run_wsgi_app
 from google.appengine.api import mail
 
-class BrokenLinkHandler(webapp.RequestHandler):
+class BrokenLinkHandler(webapp2.RequestHandler):
     def post(self):
         path = self.request.get("path")
         msg = self.request.get("message")
@@ -16,11 +17,4 @@ class BrokenLinkHandler(webapp.RequestHandler):
                    body=mailBody)
         self.redirect("/")
     
-app = webapp.WSGIApplication([('/brokenLink/', BrokenLinkHandler)], debug=debugMode)
-    
-def main():
-    run_wsgi_app(app)
-    
-if __name__ == "__main__":
-    main()
-    
+app = webapp2.WSGIApplication([('/brokenLink/', BrokenLinkHandler)], debug=debugMode)
