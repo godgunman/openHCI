@@ -101,18 +101,22 @@ handlers:
 # CSS
 - url: /2011/css
   static_dir: openhci2011/css
+  expiration: "99d"
   
 # JavaScript
 - url: /2011/js
   static_dir: openhci2011/js
+  expiration: "99d"
   
 # Images
 - url: /2011/images
   static_dir: openhci2011/images
+  expiration: "99d"
 
 # Files
 - url: /2011/files/
   static_dir: openhci2011/files
+  expiration: "99d"
 
 # HTML5 Cache manifest
 #- url: /manifest/(mobile|)cache.manifest
@@ -126,6 +130,7 @@ handlers:
 - url: /2011/favicon.ico
   static_files: openhci2011/favicon.ico
   upload: openhci2011/images/favicon.ico
+  expiration: "99d"
   
 # Broken Link Report
 - url: /2011/brokenLink/
