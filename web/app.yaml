@@ -1,4 +1,4 @@
-application: ntu-openhci
+application: openhci-ntu
 version: merge
 runtime: python27
 api_version: 1
@@ -11,9 +11,15 @@ handlers:
   static_files: openhci2012/index.html
   upload: openhci2012/index.html
 
+# 2013 ----------------------------------------------------------------------------
+
+- url: /2013
+  static_files: openhci2013/index.html
+  upload: openhci2013/index.html
+
+
+
 # 2012 ----------------------------------------------------------------------------
-
-
 
 # Pages
 
@@ -141,7 +147,7 @@ handlers:
   script: openhci2011.NotFound.app
 
 
-# 2012 ----------------------------------------------------------------------------
+# 2009 ----------------------------------------------------------------------------
 
 - url: /2009/(.*)
   static_files: openhci2009/static/\1
