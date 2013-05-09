@@ -10,3 +10,23 @@ body {
 	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
 }
 
+h1{
+	margin: 50px;
+}
+
+.wrap{
+	text-align: center;
+}
+
+.history_links img{
+	
+	width: 30%;
+
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.history_links div{
+	text-align: center;
+}

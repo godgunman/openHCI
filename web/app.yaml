@@ -21,6 +21,9 @@ handlers:
 - url: /2013/css
   static_dir: openhci2013/css
 
+# Images
+- url: /2013/images
+  static_dir: openhci2013/images
 
 # 2012 ----------------------------------------------------------------------------
 
