@@ -1,11 +1,5 @@
 body {
-	background-color:#FFFFFF;/*338cb4*/
-	overflow:auto;/*當內容放不下時，加上捲軸的功能。*/
-	/*font-family:Corbel;*/
-	background-position: center top; 
-	background-repeat: no-repeat;
-	margin: 0px;
-	height:100%;
+	background-color:#FFFFFF;
 	overflow: auto;
 	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
 }
@@ -15,7 +9,7 @@ h1{
 }
 
 table{
-	margin: 100px auto 100px auto;
+	margin: -140px auto 100px auto;
 }
 
 td{
@@ -23,8 +17,12 @@ td{
 	vertical-align: top;
 }
 
-.wrap{
+.coming_2013{
 	text-align: center;
+}
+
+.coming_2013 img{
+	width:70%;
 }
 
 .history_links img{
