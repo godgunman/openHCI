@@ -1,0 +1,12 @@
+body {
+	background-color:#FFFFFF;/*338cb4*/
+	overflow:auto;/*當內容放不下時，加上捲軸的功能。*/
+	/*font-family:Corbel;*/
+	background-position: center top; 
+	background-repeat: no-repeat;
+	margin: 0px;
+	height:100%;
+	overflow: auto;
+	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
+}
+
