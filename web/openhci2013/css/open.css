@@ -4,10 +4,6 @@ body {
 	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
 }
 
-h1{
-	margin: 50px;
-}
-
 table{
 	margin: -140px auto 100px auto;
 }
@@ -17,15 +13,11 @@ td{
 	vertical-align: top;
 }
 
-.coming_2013{
+div{
 	text-align: center;
 }
 
-.coming_2013 img{
-	width:70%;
-}
-
-.history_links img{
+img{
 	
 	margin: 20px;
 
@@ -36,6 +28,10 @@ td{
 	border-radius: 15px;
 }
 
-.history_links div{
-	text-align: center;
+.coming_2013{
+	margin-top: -80px;
+}
+
+.coming_2013 img{
+	width: 70%;
 }
