@@ -20,7 +20,9 @@ h1{
 
 .history_links img{
 	
-	width: 30%;
+	margin: 20px;
+
+	width: 40%;
 
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
