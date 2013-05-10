@@ -26,6 +26,7 @@ img{
 	margin: -80px 5px 20px 5px;
 
 	width: 30%;
+	height: 10%;
 
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
@@ -33,7 +34,7 @@ img{
 }
 
 .coming_2013 img{
-	margin-top: -80px;
+	margin-top: -50px;
 	width: 70%;
 }
 
