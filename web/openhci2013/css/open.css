@@ -4,6 +4,10 @@ body {
 	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
 }
 
+a{
+	text-decoration : none;
+}
+
 table{
 	margin: -140px auto 100px auto;
 }
@@ -18,20 +22,22 @@ div{
 }
 
 img{
-	
-	margin: 20px;
 
-	width: 40%;
+	margin: -80px 5px 20px 5px;
+
+	width: 30%;
 
 	-webkit-border-radius: 15px;
 	-moz-border-radius: 15px;
 	border-radius: 15px;
 }
 
-.coming_2013{
+.coming_2013 img{
 	margin-top: -80px;
+	width: 70%;
 }
 
-.coming_2013 img{
-	width: 70%;
+.history_banners{
+	position: fixed;
+	bottom: 5px;
 }
