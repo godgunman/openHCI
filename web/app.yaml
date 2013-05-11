@@ -35,6 +35,11 @@ handlers:
   static_files: openhci2013/images/favicon.ico
   upload: openhci2013/images/favicon.ico
 
+# favicon.ico
+- url: /2013/favicon.ico
+  static_files: openhci2013/images/favicon.ico
+  upload: openhci2013/images/favicon.ico
+
 # 2012 ----------------------------------------------------------------------------
 
 # Pages
