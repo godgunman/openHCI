@@ -35,3 +35,14 @@ div{
 	font-size: 10px;
 	color: rgba(84,84,84,0.8);
 }
+
+@media (max-width: 480px){
+	.coming_2013 img{
+		margin-left: -155px;
+		width: 600px;
+	}
+
+	.history_links{
+		margin: 0px 0px 0px 0px;
+	}
+}
