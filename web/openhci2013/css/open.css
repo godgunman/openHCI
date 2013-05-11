@@ -18,15 +18,16 @@ div{
 }
 
 .history_links{
-	margin: -30px 0px 0px 0px;
+	margin: -50px 0px 0px 0px;
 }
 
 .history_links a{
-	font-size: 14px;
+	font-size: 13px;
 	color: rgba(84,84,84,0.8);
 }
 
 .copyright{
+	margin-top: 50px;
 	width: 100%;
 }
 
