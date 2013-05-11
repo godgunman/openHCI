@@ -8,37 +8,29 @@ a{
 	text-decoration : none;
 }
 
-table{
-	margin: -140px auto 100px auto;
-}
-
-td{
-	padding: 10px 0px 10px 0px;
-	vertical-align: top;
-}
-
 div{
 	text-align: center;
 }
 
-img{
-
-	margin: -80px 5px 20px 5px;
-
-	width: 30%;
-	height: 10%;
-
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-}
-
 .coming_2013 img{
-	margin-top: -50px;
+	margin: -30px 0px 0px -20px;
 	width: 80%;
 }
 
-.history_banners{
-	position: fixed;
-	bottom: 5px;
+.history_links{
+	margin: -30px 0px 0px 0px;
+}
+
+.history_links a{
+	font-size: 14px;
+	color: rgba(84,84,84,0.8);
+}
+
+.copyright{
+	width: 100%;
+}
+
+.copyright a{
+	font-size: 10px;
+	color: rgba(84,84,84,0.8);
 }

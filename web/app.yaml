@@ -11,6 +11,11 @@ handlers:
   static_files: openhci2012/index.html
   upload: openhci2012/index.html
 
+# Develop
+- url: /_dev
+  static_files: openhci2013/index.html
+  upload: openhci2013/index.html
+
 # 2013 ----------------------------------------------------------------------------
 
 - url: /2013
