@@ -8,8 +8,8 @@ handlers:
 # Global
 
 - url: /
-  static_files: openhci2012/index.html
-  upload: openhci2012/index.html
+  static_files: openhci2013/index.html
+  upload: openhci2013/index.html
 
 # Develop
 - url: /_dev
