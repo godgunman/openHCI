@@ -16,9 +16,23 @@ handlers:
   static_files: openhci2013/index.html
   upload: openhci2013/index.html
 
-# 2013 ----------------------------------------------------------------------------
+# 2013_coming ----------------------------------------------------------------------------
 
 - url: /2013
+  static_files: openhci2013_coming/index.html
+  upload: openhci2013_coming/index.html
+
+# CSS
+- url: /2013_coming/css
+  static_dir: openhci2013_coming/css
+
+# Images
+- url: /2013_coming/images
+  static_dir: openhci2013_coming/images
+
+# 2013 ----------------------------------------------------------------------------
+
+- url: /2013_dev
   static_files: openhci2013/index.html
   upload: openhci2013/index.html
 

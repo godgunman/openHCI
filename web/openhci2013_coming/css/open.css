@@ -1,0 +1,37 @@
+body {
+	background-color:#FFFFFF;
+	overflow: auto;
+	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
+}
+
+a{
+	text-decoration : none;
+}
+
+div{
+	text-align: center;
+}
+
+.coming_2013 img{
+	margin: -30px 0px 0px -30px;
+	width: 80%;
+}
+
+.history_links{
+	margin: -50px 0px 0px 0px;
+}
+
+.history_links a{
+	font-size: 13px;
+	color: rgba(84,84,84,0.8);
+}
+
+.copyright{
+	margin-top: 50px;
+	width: 100%;
+}
+
+.copyright a{
+	font-size: 10px;
+	color: rgba(84,84,84,0.8);
+}
