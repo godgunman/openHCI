@@ -1,37 +1,127 @@
-body {
+﻿html{height:100%}
+body 
+{
 	background-color:#FFFFFF;
-	overflow: auto;
-	font-family: verdana, "微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
+	margin: 0px;
+	height:100%;
+	width:100%;
+	text-align:center;
+	letter-spacing:1px;
+	line-height:20px; /*行距*/
+	font-family: verdana,"微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
 }
-
-a{
-	text-decoration : none;
+a
+{
+	text-decoration: none;
 }
-
-div{
-	text-align: center;
+#wrap
+{
+	height:100%;
+	width:1024px;
+	margin: 0px auto;
+    padding-bottom:40px;
 }
-
-.coming_2013 img{
-	margin: -30px 0px 0px -30px;
-	width: 80%;
+/*-------------------------------------------------header--*/
+#head {
+	position:absolute;
+	width:1024px;
+	height:230px;
+	z-index:0;
 }
-
-.history_links{
-	margin: -50px 0px 0px 0px;
+/*-------------------------------------------------menu--*/
+#menu 
+{
+	position: absolute;
+	padding-top:178px;
+	z-index:9;	
 }
-
-.history_links a{
-	font-size: 13px;
-	color: rgba(84,84,84,0.8);
+#menu a {
+   float:left;
+   height:30px;
+   cursor:pointer;
 }
-
-.copyright{
-	margin-top: 50px;
-	width: 100%;
+#btn1
+{
+	height:30px;
+	width:60px;
+	border:0px;
+	margin-left: 36px;
 }
-
-.copyright a{
-	font-size: 10px;
-	color: rgba(84,84,84,0.8);
+#btn2
+{
+	height:30px;
+	width:120px;
+	border:0px;
+	margin-left: 16px;
+}
+#btn3
+{
+	height:30px;
+	width:86px;
+	border:0px;
+	margin-left: 14px;
+}
+#btn4
+{
+	height:30px;
+	width:115px;
+	border:0px;
+	margin-left: 14px;
+}
+#btn5
+{
+	height:30px;
+	width:80px;
+	border:0px;
+	margin-left: 14px;
+}
+#btn6
+{
+	height:30px;
+	width:80px;
+	border:0px;
+	margin-left: 13px;
+}
+/*-------------------------------------------------content--*/
+#main_content 
+{
+    padding-top:20px;
+}
+.section_head
+{
+	height:25px;
+	margin-top:30px;
+	background-color:#8CC63F;
+	color:White;
+}
+#section1
+{
+	float:left;
+	margin-top:200px;
+	margin-left:60px;
+	width:600px;
+}
+#section2
+{
+	float:left;
+	margin-top: 200px;
+	margin-left:30px;
+	width:280px;
+}
+/*-------------------------------------------------content--*/
+.plain
+{
+	text-align:left;
+	font:12px Microsoft JhengHei;
+	color: #333333;
+}
+/*-------------------------------------------------footer--*/
+#footer
+{
+	height:40px;
+	text-align:center;
+	font:10px Microsoft JhengHei;
+	color:Black;
+	clear:both;
+	z-index:99;	
 }
