@@ -8,7 +8,8 @@ body
 	text-align:center;
 	letter-spacing:1px;
 	line-height:20px; /*行距*/
-	font-family: verdana,"微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;
+	/*font-family: verdana,"微軟正黑體","Microsoft JhengHei",Helvetica, Arial, Sans-Serif;*/
+	font-family: sans-serif, arial, monospace;
 }
 a
 {
@@ -93,6 +94,9 @@ a
 	margin-top:30px;
 	background-color:#8CC63F;
 	color:White;
+
+	line-height: 25px;/*text vertical align*/
+
 }
 #section1
 {
@@ -112,15 +116,20 @@ a
 .plain
 {
 	text-align:left;
-	font:12px Microsoft JhengHei;
-	color: #333333;
+	font:12px
+}
+.plain a,a:visited{
+	color: rgba(73,73,73,1);
+}
+.plain a:hover{
+	color: rgba(140,198,63,1);
 }
 /*-------------------------------------------------footer--*/
 #footer
 {
 	height:40px;
 	text-align:center;
-	font:10px Microsoft JhengHei;
+	font:10px
 	color:Black;
 	clear:both;
 	z-index:99;	
