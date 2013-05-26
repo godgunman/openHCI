@@ -116,7 +116,7 @@ a
 .plain
 {
 	text-align:left;
-	font:12px
+	font-size:15px
 }
 .plain a,a:visited{
 	color: rgba(73,73,73,1);
