@@ -31,6 +31,22 @@ handlers:
   static_files: openhci2013/index.html
   upload: openhci2013/index.html
 
+- url: /2013/index.html
+  static_files: openhci2013/index.html
+  upload: openhci2013/index.html
+
+- url: /2013/intro.html
+  static_files: openhci2013/intro.html
+  upload: openhci2013/intro.html
+
+- url: /2013/about.html
+  static_files: openhci2013/about.html
+  upload: openhci2013/about.html
+
+- url: /2013/program.html
+  static_files: openhci2013/program.html
+  upload: openhci2013/program.html
+
 # CSS
 - url: /2013/css
   static_dir: openhci2013/css
