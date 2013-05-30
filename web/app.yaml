@@ -39,13 +39,21 @@ handlers:
   static_files: openhci2013/intro.html
   upload: openhci2013/intro.html
 
-- url: /2013/about.html
-  static_files: openhci2013/about.html
-  upload: openhci2013/about.html
-
 - url: /2013/program.html
   static_files: openhci2013/program.html
   upload: openhci2013/program.html
+
+- url: /2013/registration.html
+  static_files: openhci2013/registration.html
+  upload: openhci2013/registration.html
+
+- url: /2013/passport.html
+  static_files: openhci2013/passport.html
+  upload: openhci2013/passport.html
+
+- url: /2013/about.html
+  static_files: openhci2013/about.html
+  upload: openhci2013/about.html
 
 # CSS
 - url: /2013/css

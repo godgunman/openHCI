@@ -1,7 +1,10 @@
-﻿html{height:100%}
+﻿html
+{
+	height:100%
+}
 body 
 {
-	background-color:#FFFFFF;
+	background-color:#CCCCCC;
 	margin: 0px;
 	height:100%;
 	width:100%;
@@ -21,6 +24,17 @@ a
 	margin: 0px auto;
     padding-bottom:210px;
 }
+#shadow
+{
+	width: 1024px;
+	background-color:#FFFFFF;
+    border: solid 1px #999999;
+	box-shadow:1px 1px 12px 0px rgba(20%,20%,20%,0.5);
+	-moz-box-shadow:1px 1px 12px 0px rgba(20%,20%,20%,0.5);
+	-webkit-box-shadow:1px 1px 12px 0px rgba(20%,20%,20%,0.5);
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=7, Direction=90, Color='#999999'),
+			progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=270, Color='#999999');
+}
 
 @font-face {
   font-family:Helvetica;
@@ -28,7 +42,6 @@ a
 }
 /*-------------------------------------------------header--*/
 #head {
-	position:absolute;
 	width:1024px;
 	height:230px;
 	z-index:0;
@@ -36,8 +49,7 @@ a
 /*-------------------------------------------------menu--*/
 #menu 
 {
-	position: absolute;
-	padding-top:178px;
+	margin-top:-52px;
 	z-index:9;	
 }
 #menu a {
@@ -88,46 +100,6 @@ a
 	margin-left: 13px;
 }
 /*-------------------------------------------------content--*/
-#main_content 
-{
-    padding-top:20px;
-}
-.section_head
-{
-	height:25px;
-	margin-top:30px;
-	background-color:#8CC63F;
-	font-family:Helvetica;
-	font-size:14px;
-	color:White;
-	line-height: 25px;
-	text-align:center;
-	text-transform:uppercase;
-}
-#section1
-{
-	float:left;
-	margin-top:200px;
-	margin-left:60px;
-	width:600px;
-}
-#section2
-{
-	float:left;
-	margin-top: 200px;
-	margin-left:30px;
-	width:280px;
-}
-#introContent, #passportContent,#aboutContent,#regisContent,#ProgramContent {
-     text-align:left;	
-     font-size:14px;
-     padding-bottom:30px;
-     float:left;
-	 margin-top:200px;
-     letter-spacing:0px;
-     line-height:1.5em;
-}
-/*-------------------------------------------------content--*/
 .plain
 {
 	text-align:left;
@@ -140,6 +112,51 @@ a
 .plain a:hover{
 	color: #8CC63F;
 }
+/*-------------------------------------------------content--*/
+#main_content 
+{
+    margin-top:50px;
+}
+.section_head
+{
+	height:25px;
+	background-color:#8CC63F;
+	font-family:Helvetica;
+	font-size:14px;
+	color:White;
+	line-height: 25px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.section
+{
+	margin-top:30px;
+}
+#homeContent, #introContent, #passportContent,#aboutContent,#regisContent,#ProgramContent {
+     text-align:left;	
+     font-size:14px;
+     padding-bottom:30px;
+     float:left;
+     letter-spacing:0px;
+     line-height:1.5em;
+}
+/*-------------------------------------------------home--*/
+#home
+{
+	width:900px;
+	margin:0px auto;
+}
+#section1
+{
+	float:left;
+	width:600px;
+}
+#section2
+{
+	float:left;
+	margin-left:20px;
+	width:280px;
+}
 /*-------------------------------------------------program--*/
 #program
 {
@@ -149,11 +166,11 @@ a
 .day
 {
 	vertical-align:middle;
-	margin-top:10px;
+	margin-bottom:10px;
 }
 .dayHead
 {
-	width:110px;
+	width:115px;
 	padding:15px;
 	text-align:center;
 	font-size:14px;
@@ -168,19 +185,20 @@ a
 }
 .dayTime
 {
-	width:100px;
+	width:120px;
 	font-style:italic;
 	color:#8CC63F;
 }
 .dayTimeBold
 {
-	width:100px;
+	width:120px;
 	font-style:italic;
 	font-weight:bold;
 	color:#8CC63F;
 }
 .dayTopic
 {
+	width:200px;
 	color:#4D4D4D;
 }
 .dayTopicBold
@@ -206,8 +224,26 @@ a
 /*-------------------------------------------------introduction--*/
 #introduction
 {
-	height:750px;
+	height:560px;
 	width:800px;
+	margin:0px auto;
+	text-align:left;
+	color:#333333;
+}
+/*-------------------------------------------------registration--*/
+#registration
+{
+	height:560px;
+	width:500px;
+	margin:0px auto;
+	text-align:left;
+	color:#333333;
+}
+/*-------------------------------------------------passport--*/
+#passport
+{
+	height:560px;
+	width:650px;
 	margin:0px auto;
 	text-align:left;
 	color:#333333;
@@ -215,19 +251,18 @@ a
 /*-------------------------------------------------about--*/
 #about
 {
-	width:960px;
+	width:750px;
 	margin:0px auto;
 	text-align:left;
 	color:#333333;
 }
-.department
-{
-	padding-left:5px;
-	padding-right:5px;
-}
-.department a
+.description a
 {
 	color:#EF9103;
+}
+.description td
+{
+	padding:5px 10px 5px 10px;
 }
 /*-------------------------------------------------footer--*/
 #footer
