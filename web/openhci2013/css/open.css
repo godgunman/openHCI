@@ -22,7 +22,7 @@ a
 	height:100%;
 	width:1024px;
 	margin: 0px auto;
-    padding-bottom:5px;
+    padding-bottom:70px;
 }
 #shadow
 {
@@ -104,7 +104,7 @@ a
 {
 	padding-left:10px;
 	padding-right:10px;
-	text-align:left;
+	text-align:justify;
 	font-size:14px;
 	color: #333333;
 }
@@ -265,28 +265,65 @@ a
 /*-------------------------------------------------about--*/
 #about
 {
-	width:750px;
+	width:900px;
 	margin:0px auto;
 	text-align:left;
-	color:#333333;
+	vertical-align:middle;
+	color:#4D4D4D;
 }
-.description a
+.description table
 {
-	color:#F15A24;
+	border:0px;
+	margin-top:10px;
+	width:440px;
 }
 .description td
 {
+	font-size:13px;
+	padding:5px 0px 5px 2px;
+}
+.description img
+{
+	border:0px;
+	padding-top:5px;
+	padding-right:5px;
+}
+.commName
+{
+	font-size:14px;
+	color:#F15A24;
+}
+.commMail
+{
+	font-size:10px;
+	text-align:right;
+}
+.commMail a,a:visited
+{
 	color:#4D4D4D;
-	padding:5px 10px 5px 10px;
+}
+.commMail a:hover{
+	color: #8CC63F;
 }
 /*-------------------------------------------------footer--*/
 #footer
 {
-	height:50px;
+	height:70px;
 	background-color:#8CC63F;
 	text-align:center;
 	font:12px Microsoft JhengHei,微軟正黑體;
 	color:White;
 	clear:both;
 	z-index:99;	
+}
+#footer a
+{
+	color: white;
+	text-decoration:none;
+}
+#footer a,a:visited{
+	color: white;
+}
+#footer a:hover{
+	color: #F15A24;
 }
