@@ -8,8 +8,12 @@ handlers:
 # Global
 
 - url: /
-  static_files: openhci2013_coming/index.html
-  upload: openhci2013_coming/index.html
+  static_files: openhci2013/index.html
+  upload: openhci2013/index.html
+
+#- url: /
+#  static_files: openhci2013_coming/index.html
+#  upload: openhci2013_coming/index.html
 
 # 2013_coming ----------------------------------------------------------------------------
 
