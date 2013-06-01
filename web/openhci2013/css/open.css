@@ -22,7 +22,7 @@ a
 	height:100%;
 	width:1024px;
 	margin: 0px auto;
-    padding-bottom:210px;
+    padding-bottom:5px;
 }
 #shadow
 {
@@ -102,6 +102,8 @@ a
 /*-------------------------------------------------content--*/
 .plain
 {
+	padding-left:10px;
+	padding-right:10px;
 	text-align:left;
 	font-size:14px;
 	color: #333333;
@@ -111,6 +113,16 @@ a
 }
 .plain a:hover{
 	color: #8CC63F;
+}
+.heavygGreen
+{
+	font-weight:bold;
+	color:#8CC63F;
+}
+.heavyOrange
+{
+	font-weight:bold;
+	color:#EF9103;
 }
 /*-------------------------------------------------content--*/
 #main_content 
@@ -170,7 +182,7 @@ a
 }
 .dayHead
 {
-	width:115px;
+	width:105px;
 	padding:15px;
 	text-align:center;
 	font-size:14px;
@@ -180,7 +192,7 @@ a
 }
 .dayContent td
 {
-	padding:3px 15px 3px 10px;
+	padding:3px 10px 3px 10px;
 	border-bottom:1px solid #B3E860;
 }
 .dayTime
@@ -198,18 +210,18 @@ a
 }
 .dayTopic
 {
-	width:200px;
+	width:205px;
 	color:#4D4D4D;
 }
 .dayTopicBold
 {
-	width:200px;
+	width:205px;
 	font-weight:bold;
 	color:#EF9103;
 }
 .dayDetail
 {
-	width:280px;
+	width:285px;
 	color:#333333;
 }
 .dayFoot
@@ -221,11 +233,14 @@ a
 .dayFoot a,a:visited{
 	color: #333333;
 }
+.dayFoot a:hover{
+	color: #8CC63F;
+}
 /*-------------------------------------------------introduction--*/
 #introduction
 {
 	height:560px;
-	width:800px;
+	width:650px;
 	margin:0px auto;
 	text-align:left;
 	color:#333333;
@@ -234,10 +249,9 @@ a
 #registration
 {
 	height:560px;
-	width:500px;
+	width:650px;
 	margin:0px auto;
 	text-align:left;
-	color:#333333;
 }
 /*-------------------------------------------------passport--*/
 #passport
@@ -258,16 +272,17 @@ a
 }
 .description a
 {
-	color:#EF9103;
+	color:#F15A24;
 }
 .description td
 {
+	color:#4D4D4D;
 	padding:5px 10px 5px 10px;
 }
 /*-------------------------------------------------footer--*/
 #footer
 {
-	height:210px;
+	height:50px;
 	background-color:#8CC63F;
 	text-align:center;
 	font:12px Microsoft JhengHei,微軟正黑體;
