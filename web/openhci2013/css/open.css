@@ -108,7 +108,7 @@ a
 	font-size:14px;
 	color: #333333;
 }
-.plain a,a:visited{
+.plain a, .plain a:visited{
 	color: #333333;
 }
 .plain a:hover{
@@ -230,7 +230,7 @@ a
 	color:#333333;
 	height:30px;
 }
-.dayFoot a,a:visited{
+.dayFoot a, .dayFoot a:visited{
 	color: #333333;
 }
 .dayFoot a:hover{
@@ -293,18 +293,6 @@ a
 	font-size:14px;
 	color:#F15A24;
 }
-.commMail
-{
-	font-size:10px;
-	text-align:right;
-}
-.commMail a,a:visited
-{
-	color:#4D4D4D;
-}
-.commMail a:hover{
-	color: #8CC63F;
-}
 /*-------------------------------------------------footer--*/
 #footer
 {
@@ -316,12 +304,7 @@ a
 	clear:both;
 	z-index:99;	
 }
-#footer a
-{
-	color: white;
-	text-decoration:none;
-}
-#footer a,a:visited{
+#footer a, #footer a:visited{
 	color: white;
 }
 #footer a:hover{
