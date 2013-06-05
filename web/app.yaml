@@ -17,7 +17,7 @@ handlers:
 
 # 2013_coming ----------------------------------------------------------------------------
 
-- url: /2013
+- url: /2013_coming
   static_files: openhci2013_coming/index.html
   upload: openhci2013_coming/index.html
 
@@ -31,7 +31,7 @@ handlers:
 
 # 2013 ----------------------------------------------------------------------------
 
-- url: /2013_dev
+- url: /2013
   static_files: openhci2013/index.html
   upload: openhci2013/index.html
 
@@ -70,6 +70,10 @@ handlers:
 # Images
 - url: /2013/images
   static_dir: openhci2013/images
+  
+# Files
+- url: /2013/files
+  static_dir: openhci2013/files
 
 # favicon.ico
 - url: /favicon.ico
