@@ -22,7 +22,7 @@ a
 	height:100%;
 	width:1024px;
 	margin: 0px auto;
-    padding-bottom:70px;
+    padding-bottom:230px;
 }
 #shadow
 {
@@ -224,6 +224,12 @@ a
 	width:285px;
 	color:#333333;
 }
+.dayNote
+{
+	text-align:right;
+	font-size:12px;
+	color:#4D4D4D;
+}
 .dayFoot
 {
 	text-align:right;
@@ -252,6 +258,17 @@ a
 	width:650px;
 	margin:0px auto;
 	text-align:left;
+}
+#redLink, #redLink:visited
+{
+	text-decoration:blink;
+	height:15px;
+	border: solid 1px red;
+	color: red;
+}
+#redLink:hover{
+	color: white;
+	background-color:Red;
 }
 /*-------------------------------------------------passport--*/
 #passport
@@ -296,7 +313,7 @@ a
 /*-------------------------------------------------footer--*/
 #footer
 {
-	height:70px;
+	height:230px;
 	background-color:#8CC63F;
 	text-align:center;
 	font:12px Microsoft JhengHei,微軟正黑體;
