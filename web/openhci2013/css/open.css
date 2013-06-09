@@ -22,7 +22,7 @@ a
 	height:100%;
 	width:1024px;
 	margin: 0px auto;
-    padding-bottom:70px;
+    padding-bottom:170px;
 }
 #shadow
 {
@@ -313,7 +313,7 @@ a
 /*-------------------------------------------------footer--*/
 #footer
 {
-	height:70px;
+	height:170px;
 	background-color:#8CC63F;
 	text-align:center;
 	font:12px Microsoft JhengHei,微軟正黑體;
