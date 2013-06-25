@@ -22,7 +22,7 @@ a
 	height:100%;
 	width:1024px;
 	margin: 0px auto;
-    padding-bottom:170px;
+    padding-bottom:240px;
 }
 #shadow
 {
@@ -313,7 +313,7 @@ a
 /*-------------------------------------------------footer--*/
 #footer
 {
-	height:170px;
+	height:240px;
 	background-color:#8CC63F;
 	text-align:center;
 	font:12px Microsoft JhengHei,微軟正黑體;
@@ -321,7 +321,45 @@ a
 	clear:both;
 	z-index:99;	
 }
-#footer a, #footer a:visited{
+.sponsorArea
+{
+	width:700px;
+	float:left;
+	margin: 20px 0px 10px 200px;
+}
+.contactArea
+{
+	 width:1024px; 
+	 float:left;
+}
+.sponsor1
+{
+	float:left;
+	width:210px; 
+	margin-left:20px;
+}
+.sponsor2
+{
+	float:left;
+	width:150px;
+}
+.sponsor3
+{
+	float:left;
+	width:100px;
+}
+.footerSponsor
+{
+	 padding:8px 0px 8px 0px;
+}
+#footerEnv
+{
+	border:0px;
+	vertical-align:text-bottom;
+	padding:0px;
+}
+#footer a, #footer a:visited
+{
 	color: white;
 }
 #footer a:hover{
