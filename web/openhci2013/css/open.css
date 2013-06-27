@@ -259,6 +259,10 @@ a
 	margin:0px auto;
 	text-align:left;
 }
+#regisContent
+{
+	width:650px;
+}
 #redLink, #redLink:visited
 {
 	text-decoration:blink;
@@ -278,6 +282,10 @@ a
 	margin:0px auto;
 	text-align:left;
 	color:#333333;
+}
+#passportContent
+{
+	width:650px;
 }
 /*-------------------------------------------------about--*/
 #about
