@@ -195,6 +195,13 @@ a
 	padding:3px 10px 3px 10px;
 	border-bottom:1px solid #B3E860;
 }
+.dayRoom
+{
+	border-top:0px;
+	color:White; 
+	text-align:center; 
+	background-color:#8CC63F
+}
 .dayTime
 {
 	width:120px;
