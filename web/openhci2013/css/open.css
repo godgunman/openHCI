@@ -114,6 +114,19 @@ a
 .plain a:hover{
 	color: #8CC63F;
 }
+.heavyRed
+{
+	font-size:14px;
+	text-align:justify;
+	font-weight:bold;
+	color: Red;
+}
+.heavyRed a, .heavyRed a:visited{
+	color: Red;
+}
+.heavyRed a:hover{
+	color: #8CC63F;
+}
 .heavygGreen
 {
 	font-weight:bold;
@@ -155,19 +168,31 @@ a
 /*-------------------------------------------------home--*/
 #home
 {
-	width:900px;
+	width:800px;
 	margin:0px auto;
+}
+#section0
+{
+	float:left;
+	width:800px;
 }
 #section1
 {
 	float:left;
-	width:600px;
+	width:500px;
 }
 #section2
 {
 	float:left;
 	margin-left:20px;
 	width:280px;
+}
+#section3
+{
+	float:left;
+	width:800px;
+	border-top:1px solid #B3E860; 
+	padding-bottom:20px;
 }
 /*-------------------------------------------------program--*/
 #program
@@ -365,7 +390,8 @@ a
 }
 .footerSponsor
 {
-	 padding:8px 0px 8px 0px;
+	border:0px;
+	padding:8px 0px 8px 0px;
 }
 #footerEnv
 {
