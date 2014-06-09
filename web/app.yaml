@@ -33,6 +33,11 @@ handlers:
 - url: /2014_coming/js
   static_dir: openhci2014_coming/js
 
+# favicon.png
+- url: /2014_coming/favicon.png
+  static_files: openhci2014_coming/favicon.png
+  upload: openhci2014_coming/favicon.png
+
 
 # # 2014 ----------------------------------------------------------------------------
 
