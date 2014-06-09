@@ -284,6 +284,57 @@ ul#nav li.current a { color: #F06000; }
 }
 
 /* ------------------------------------------------------------------ */
+/* e. About Us Section
+/* ------------------------------------------------------------------ */
+
+#about-us {
+   background: #fff;
+   padding-top: 90px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#about-us h1 {
+   letter-spacing: 1px;
+}
+
+#about-us .crew-row {
+  border-bottom: 1px dashed #E8E8E8;
+  padding-bottom: 20px;
+}
+
+#about-us .crew-cell h2 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   text-align: left;
+   margin-bottom: 20px;
+}
+
+#about-us .crew-cell h2 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 6px;
+}
+
+#about-us .crew-cell {
+   margin-top: 30px;
+}
+
+#about-us .member {
+  text-align: left;
+}
+
+#about-us .member p {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+#about-us .member .name {
+  font-weight: bold;
+  color: #049372;
+}
+
+/* ------------------------------------------------------------------ */
 /* d. Resume Section
 /* ------------------------------------------------------------------ */
 
@@ -627,6 +678,68 @@ ul#nav li.current a { color: #F06000; }
 /* content fadeout */
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content .popup-modal {
    opacity: 0;
+}
+
+
+/* ------------------------------------------------------------------ */
+/* f. Registration Section
+/* ------------------------------------------------------------------ */
+#registration {
+   background: #ffffff url(../images/debut_dark.png);
+   padding-top: 66px;
+   padding-bottom: 48px;
+}
+#registration h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #fff;
+}
+#registration h1 span { display: none; }
+#registration .header-col h1:before {
+   font-family: 'FontAwesome';
+   content: "\f15c";
+   padding-right: 10px;
+   font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #fff;
+}
+#registration .action {
+   margin-top: 12px;
+}
+#registration h2 {
+   font: 28px/36px 'opensans-bold', sans-serif;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+}
+#registration h2 a {
+   color: inherit;
+}
+#registration p {
+   color: #636363;
+   font-size: 17px;
+}
+/*#
+call-to-action .button {
+  color:#fff;
+   background: #0D0D0D;
+}
+*/
+#registration .button:hover,
+#registration .button:active {
+   background: #FFFFFF;
+   color: #0D0D0D;
+}
+#registration p span {
+  font-family: 'opensans-semibold', sans-serif; 
+  color: #D8D8D8;
+}
+
+#registration .typeform-frame {
+  width: 100%;
+  min-height: 500px;
 }
 
 /* ------------------------------------------------------------------ */
