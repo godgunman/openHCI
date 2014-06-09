@@ -1,4 +1,4 @@
-application: ntu-openhci
+application: openhci2014
 version: merge
 runtime: python27
 api_version: 1
@@ -8,12 +8,59 @@ handlers:
 # Global
 
 - url: /
-  static_files: openhci2013/index.html
-  upload: openhci2013/index.html
+  static_files: openhci2014_coming/index.html
+  upload: openhci2014_coming/index.html
 
 #- url: /
 #  static_files: openhci2013_coming/index.html
 #  upload: openhci2013_coming/index.html
+
+# 2014_coming ----------------------------------------------------------------------------
+
+- url: /2014_coming
+  static_files: openhci2014_coming/index.html
+  upload: openhci2014_coming/index.html
+
+# CSS
+- url: /2014_coming/css
+  static_dir: openhci2014_coming/css
+
+# Images
+- url: /2014_coming/images
+  static_dir: openhci2014_coming/images
+
+# JavaScript
+- url: /2014_coming/js
+  static_dir: openhci2014_coming/js
+
+
+# # 2014 ----------------------------------------------------------------------------
+
+- url: /2014
+  static_files: openhci2014/index.html
+  upload: openhci2014/index.html
+
+# CSS
+- url: /2014/css
+  static_dir: openhci2014/css
+
+# JavaScript
+- url: /2014/js
+  static_dir: openhci2014/js
+
+# Images
+- url: /2014/images
+  static_dir: openhci2014/images
+
+# Files
+- url: /2014/files
+  static_dir: openhci2014/files
+
+# favicon.png
+- url: /2014/favicon.png
+  static_files: openhci2014/favicon.png
+  upload: openhci2014/favicon.png
+
 
 # 2013_coming ----------------------------------------------------------------------------
 
