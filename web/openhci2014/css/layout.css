@@ -267,7 +267,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #program {
-   background: rgba(101, 198, 187, 0.2) url(../images/gplaypattern_transparent20.png);
+   background: rgba(101, 198, 187, 0.1) url(../images/gplaypattern_transparent30.png);
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
@@ -799,6 +799,7 @@ ul#nav li.current a { color: #F06000; }
   color: #C8F7C5;
   font-weight: bold;
   font-style: italic;
+  text-decoration: underline;
 }
 
 #registration .content small {
@@ -1015,10 +1016,17 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
+   background-attachment: fixed;
+
+   position: relative;
+   min-height: 200px;
+   width: 100%;
+   overflow: hidden;
    padding-top: 96px;
-   padding-bottom: 102px;
-   color: #636363;
+   padding-bottom: 66px;
 }
 #contact .section-head { margin-bottom: 42px; }
 
@@ -1031,6 +1039,7 @@ call-to-action .button {
    letter-spacing: 3px;
    color: #EBEEEE;
    margin-bottom: 6px;
+   color: #fff;
 }
 #contact h1 span { display: none; }
 #contact h1:before {
@@ -1046,12 +1055,13 @@ call-to-action .button {
 
 #contact h4 {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #fff;
    margin-bottom: 6px;
 }
 #contact p.lead {
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
+   color: #fff;
 }
 #contact .header-col { padding-top: 6px; }
 
