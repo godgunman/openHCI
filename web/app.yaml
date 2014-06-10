@@ -41,7 +41,7 @@ handlers:
 
 # # 2014 ----------------------------------------------------------------------------
 
-- url: /2014
+- url: /2014_dev
   static_files: openhci2014/index.html
   upload: openhci2014/index.html
 

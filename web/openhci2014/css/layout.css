@@ -283,6 +283,24 @@ ul#nav li.current a { color: #F06000; }
   padding: 5px 0 5px 0;
 }
 
+#program .time {
+  color: #049372;
+  font-family: 'opensans-regular', sans-serif;
+  font-style: italic;
+}
+
+#program hr {
+  border: solid #fff;
+  border-top-color: #ABB7B7;
+  border-width: 1px 0 1px 0;
+}
+
+#program .line {
+  margin-top: 50px;
+  border: dashed #52B3D9;
+  border-width: 2px 0 0;
+}
+
 /* ------------------------------------------------------------------ */
 /* e. About Us Section
 /* ------------------------------------------------------------------ */
@@ -685,7 +703,7 @@ ul#nav li.current a { color: #F06000; }
 /* f. Registration Section
 /* ------------------------------------------------------------------ */
 #registration {
-   background: #ffffff url(../images/debut_dark.png);
+   background: #049372 url(../images/gplaypattern_transparent.png);
    padding-top: 66px;
    padding-bottom: 48px;
 }
@@ -711,37 +729,81 @@ ul#nav li.current a { color: #F06000; }
 }
 #registration h2 {
    font: 28px/36px 'opensans-bold', sans-serif;
-   color: #EBEEEE;
+   color: #FFFFFF;
    margin-bottom: 6px;
+   text-shadow: 4px 3px 0px #1d9d74;
+   letter-spacing: 2px;
 }
 #registration h2 a {
    color: inherit;
+}
+#registration h3 {
+   font: 25px/36px 'opensans-bold', sans-serif;
+   color: #FFFFFF;
+   margin-top: 20px;
+   margin-bottom: 6px;
+   font-style: bold;
+}
+#registration h3 span {
+  border-bottom: 3px solid #16A085;
+  padding-bottom: 3px;
 }
 #registration p {
    color: #636363;
    font-size: 17px;
 }
-/*#
-call-to-action .button {
+
+#registration .button {
   color:#fff;
-   background: #0D0D0D;
+  background: #049372;
+  letter-spacing: 2px;
 }
-*/
+
 #registration .button:hover,
 #registration .button:active {
-   background: #FFFFFF;
-   color: #0D0D0D;
+   background: #C8F7C5;
+   color: #019875;
 }
 #registration p span {
   font-family: 'opensans-semibold', sans-serif; 
-  color: #D8D8D8;
+  color: #FFFFFF;
 }
 
-#registration .typeform-frame {
-  width: 100%;
-  min-height: 500px;
+#registration hr {
+  border-color: #FFFFFF;
 }
 
+#registration .content {
+  padding-left: 20px;
+}
+
+#registration .content span {
+  color: #FFFFFF;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+#registration .content .red {
+  color: #D64541;
+  text-shadow: 1px 1px 0px #DADFE1;
+}
+#registration .content .light {
+  color: #C8F7C5;
+  text-shadow: 1px 1px 0px #C8F7C5;
+}
+
+#registration .content span.indent {
+  margin-left: 20px;
+}
+
+#registration .content span a {
+  color: #C8F7C5;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#registration .content small {
+  color: #FFFFFF;
+}
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
