@@ -11,18 +11,16 @@
 /*  Animate
 ------------------------------------------------------*/
   setTimeout(function() {
-     $('h1.responsive-headline').addClass('animated fadeInUp');
+     // $('h1.responsive-headline').addClass('animated fadeInUp');
   }, 100);
   setTimeout(function() {
-     $('#home h3').addClass('animated fadeInUp');
+     $('#home .logo').addClass('animated fadeInUp');
   }, 300);
-  setTimeout(function() {
-     $('#home .logo').addClass('animated bounceInUp');
-  }, 500);
 
   $('#home .scrolldown').click(function(){
+    $('#about .profile-pic').removeClass('animated bounceIn');
     setTimeout(function() {
-       $('#about .profile-pic').addClass('animated bounceIn');
+      $('#about .profile-pic').addClass('animated bounceIn');
     }, 700);
   });
 
@@ -39,7 +37,7 @@
 ------------------------------------------------------ */
 
   setTimeout(function() {
-	   $('h1.responsive-headline').fitText(1, { minFontSize: '40px', maxFontSize: '90px' });
+	   $('h1.responsive-headline').fitText(1, { minFontSize: '30px', maxFontSize: '60px' });
 	}, 100);
 
 
@@ -124,26 +122,6 @@
       }
 
 	});
-
-
-/*----------------------------------------------------*/
-/*	Modal Popup
-------------------------------------------------------*/
-
-    $('.item-wrap a').magnificPopup({
-
-       type:'inline',
-       fixedContentPos: false,
-       removalDelay: 200,
-       showCloseBtn: false,
-       mainClass: 'mfp-fade'
-
-    });
-
-    $(document).on('click', '.popup-modal-dismiss', function (e) {
-    		e.preventDefault();
-    		$.magnificPopup.close();
-    });
 
 
 /*----------------------------------------------------*/

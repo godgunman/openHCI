@@ -4,14 +4,19 @@
 <!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
    <!-- OpenHCI 2014
-       ________  ________  _______   ________   ___  ___  ________  ___           _______  ________    _____  ___   ___     
+     ________  ________  _______   ________   ___  ___  ________  ___           _______  ________    _____  ___   ___     
     |\   __  \|\   __  \|\  ___ \ |\   ___  \|\  \|\  \|\   ____\|\  \         /  ___  \|\   __  \  / __  \|\  \ |\  \    
     \ \  \|\  \ \  \|\  \ \   __/|\ \  \\ \  \ \  \\\  \ \  \___|\ \  \       /__/|_/  /\ \  \|\  \|\/_|\  \ \  \\_\  \   
      \ \  \\\  \ \   ____\ \  \_|/_\ \  \\ \  \ \   __  \ \  \    \ \  \      |__|//  / /\ \  \\\  \|/ \ \  \ \______  \  
       \ \  \\\  \ \  \___|\ \  \_|\ \ \  \\ \  \ \  \ \  \ \  \____\ \  \         /  /_/__\ \  \\\  \   \ \  \|_____|\  \ 
        \ \_______\ \__\    \ \_______\ \__\\ \__\ \__\ \__\ \_______\ \__\       |\________\ \_______\   \ \__\     \ \__\
         \|_______|\|__|     \|_______|\|__| \|__|\|__|\|__|\|_______|\|__|        \|_______|\|_______|    \|__|      \|__|
-                                                                                                                                                                                                                                           
+       __         ______     ______     ______     __   __     ______   ______     __         ______     ______     __  __    
+      /\ \       /\  __ \   /\  ___\   /\  __ \   /\ "-.\ \   /\__  _\ /\  __ \   /\ \       /\  __ \   /\  ___\   /\ \_\ \   
+      \ \ \____  \ \  __ \  \ \ \__ \  \ \ \/\ \  \ \ \-.  \  \/_/\ \/ \ \ \/\ \  \ \ \____  \ \ \/\ \  \ \ \__ \  \ \____ \  
+       \ \_____\  \ \_\ \_\  \ \_____\  \ \_____\  \ \_\\"\_\    \ \_\  \ \_____\  \ \_____\  \ \_____\  \ \_____\  \/\_____\ 
+        \/_____/   \/_/\/_/   \/_____/   \/_____/   \/_/ \/_/     \/_/   \/_____/   \/_____/   \/_____/   \/_____/   \/_____/ 
+                                                                                                                                                                                                                                                                                                                                               
   ================================================== -->
 
    <!--- Basic Page Needs
@@ -24,6 +29,7 @@
    <meta property="og:site_name" content="OpenHCI 2014" />
    <meta property="og:description" content="OpenHCI 2014 - 2014 年 OpenHCI 即將展開一場探索造成多種平行世界的延滯因子。過去在資訊世界中，Lag 通常指滿載狀態所造成的負面影響，而現在卻因為一場「時空風暴」，時空將 Lag 出八個平行世界，今年將帶領學員重新定義與思考，致使世界產生出「延滯/Lag」的多面向，開創新的人機互動 HCI，編寫出延滯因子底下的 Lag 平行世界！" />
    <meta property="og:url" content="http://www.openhci.com/" />
+   <meta property="og:image" content="http://www.openhci.com/2014/images/openhci2014/fb_share_link.jpg" />
    <meta property="og:image" content="http://www.openhci.com/2014/images/openhci2014/fb_share_banner_center.png" />
    <meta property="og:image" content="http://www.openhci.com/2014/images/openhci2014/fb_head.png" />
 
@@ -38,6 +44,7 @@
    <link rel="stylesheet" href="/2014/css/media-queries.css">
    <link rel="stylesheet" href="/2014/css/magnific-popup.css">
    <link rel="stylesheet" href="/2014/css/animate.min.css">
+   <link rel="stylesheet" href="/2014/css/csshake.min.css">
 
    <!-- Script
    ================================================== -->
@@ -46,7 +53,6 @@
    <!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="/2014/favicon.png" >
-
 </head>
 
 <body>
@@ -54,7 +60,6 @@
    <!-- Header
    ================================================== -->
    <header id="home">
-
       <nav id="nav-wrap">
 
          <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -71,27 +76,33 @@
          </ul> <!-- end #nav -->
 
       </nav> <!-- end #nav-wrap -->
-      <div class="logo" data-stellar-ratio="0.5">
-         <img src="/2014/images/openhci2014/lagontology.png">
+      <div class="logo" data-stellar-ratio="0.3">
+         <img src="/2014/images/openhci2014/top_logo.png">
+         <ul class="social">
+            <li><a href="https://www.facebook.com/pages/Open-HCI-人機互動工作坊/711503132244489" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+            <li><a class="smoothscroll" href="#video"><i class="fa fa-youtube-play fa-2x"></i></i></a></li>
+            <li><a href="https://www.youtube.com/channel/UCVp7ck70eJxhr0JiZoRiCfA" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></i></a></li>
+            <li><a href="https://plus.google.com/117520581919122474154" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></i></a></li>
+         </ul>
+      </div>
+      <div class="logo-5th" data-stellar-ratio="0.5">
+         <img src="/2014/images/openhci2014/top_right_5th.png">
       </div>
       <div class="row banner">
-         <div class="banner-text">
+         <div class="banner-text mobile-only">
             <h1 class="responsive-headline">OpenHCI 2014</h1>
             <h3><span>The 5th Student-Organized Workshop on Human-Computer Interaction</span></h3>
-            <!-- <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3> -->
-            <hr />
-            <h3><span>7/6 - 7/11 <i class="fa fa-location-arrow"></i> 台灣科技大學・台北</span></h3>
-            <ul class="social">
-               <!-- <li><a href="#"><i class="fa fa-facebook"></i></a></li> -->
-               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
-            </ul>
+            <!-- <hr /> -->
+            <!-- <ul class="social">
+               <li><a href="https://www.facebook.com/pages/Open-HCI-人機互動工作坊/711503132244489" target="_blank"><i class="fa fa-facebook-square fa-2x"></i></a></li>
+               <li><a class="smoothscroll" href="#video"><i class="fa fa-youtube-play fa-2x"></i></i></a></li>
+               <li><a href="https://www.youtube.com/channel/UCVp7ck70eJxhr0JiZoRiCfA" target="_blank"><i class="fa fa-youtube-square fa-2x"></i></i></a></li>
+               <li><a href="https://plus.google.com/117520581919122474154" target="_blank"><i class="fa fa-google-plus-square fa-2x"></i></i></a></li>
+            </ul> -->
+            <!-- <h3><span><a href="https://www.google.com.tw/maps/place/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@25.013426,121.541801,17z/data=!3m1!4b1!4m2!3m1!1s0x3442aa2176c4c0ad:0x90db5e44ee29f455" target="_blank"><i class="fa fa-location-arrow"></i> 台灣科技大學・台北</a></span></h3> -->
+            <!-- <ul class="social">
+               <li><a href="/2013" target="_blank">2013</a> <span>|</span> <a href="/2012" target="_blank">2012</a> <span>|</span> <a href="/2011" target="_blank">2011</a> <span>|</span> <a href="/2009" target="_blank">2009</a></li>
+            </ul> -->
          </div>
       </div>
       <p class="scrolldown">
@@ -100,13 +111,10 @@
 
    </header> <!-- Header End -->
 
-
    <!-- About Section
    ================================================== -->
    <section id="about">
-
       <div class="row">
-
          <div class="three columns">
 
             <img class="profile-pic" src="/2014/images/openhci2014/openhci_logo_white.png" alt="" />
@@ -115,19 +123,29 @@
 
          <div class="nine columns main-col">
 
-            <h2>OpenHCI 2014</h2>
-
+            <h2>OpenHCI 2014 : 延滯因子 Lagontology</h2>
             <p>
-               OpenHCI 2014 是第五屆由學生自治籌備的人機互動工作坊，旨在推廣人機互動學門與跨領域合作。在6天的營期間，來自不同領域的學員會經歷一系列講座與課後實作演練，深入完整 HCI 設計流程，透過合作溝通以實踐構想，將無盡的創意展現給世界！
-               <br>
-               本屆主題為「延滯因子」，希望探知跳脫 Lag 過去滿載狀態造成的負面影響的意思，重新定義與思考生活周遭產生 Lag 的各種面向，開創新的人機互動 HCI 的另一面！
+               OpenHCI 2014 是第五屆由學生自治籌備的人機互動工作坊，旨在推廣人機互動學門與跨領域合作。
+               在6天的營期間，來自不同領域的學員會經歷一系列講座與課後實作演練，深入完整 HCI 設計流程，透過合作溝通以實踐構想，將無盡的創意展現給世界！ 
+               <br><br>
+               <span class="highlight">延滯因子 Lagontology = Lag + Ontology</span>
+               <br><br>
+               本屆主題將以一場「時空風暴」激發人機互動的各種想像，跳脫過去資訊世界所定義的 Lag，探究延滯因子將時空 Lag 出的多種平行世界：五感的不同步？時間的延遲？空間的重複？情感的錯失......等，一切等你來挖掘！
             </p>
-
+            <p class="cite">OpenHCI 2014 總召集人<br>陳建方 與 鄭宇婷</p>
          </div> <!-- end .main-col -->
 
       </div>
 
    </section> <!-- About Section End-->
+
+   <section id="video">
+      <div style="width: 100%; height: 100%">
+          <embed frameborder="0" height="100%" width="100%" 
+          src="https://youtube.com/embed/Q2u9qwrKuMA?autoplay=0&controls=1&showinfo=0&autohide=1&playlist=Q2u9qwrKuMA&loop=1">
+          </embed>
+      </div>
+   </section>
 
 
    <!-- Intro Section
@@ -150,7 +168,7 @@
 
                   <h3>What is Human-Compuuter Interaction (HCI)</h3>
                   <p>
-                  HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過互動科技解決日常生活的問題，創造良好使用經驗。研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。
+                  HCI —人機互動— 是近年相當活躍的資訊學門之一。HCI 的中心思想是以人為本，透過科技開創人與人之間的互動，可能是解決與提供新的使用經驗，亦可能是探索與創造新的意義，研究的著眼點不但訴求技術創新，更需要擁有跳脫舊框架的創意，以及對使用者行為的瞭解。因此，HCI 整合了資訊、設計、心理、以及其他領域專業知識，透過跨領域合作與溝通創造嶄新的研究成果。
                   </p>
 
                </div>
@@ -188,11 +206,12 @@
       <div class="row">
          <div class="twelve columns header-col">
             <h1><span>Program</span></h1>
+            <h2><span class="small">6 Days [ 7/6 - 7/11 ] <a href="https://www.google.com.tw/maps/place/%E5%9C%8B%E7%AB%8B%E8%87%BA%E7%81%A3%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%B8/@25.013426,121.541801,17z/data=!3m1!4b1!4m2!3m1!1s0x3442aa2176c4c0ad:0x90db5e44ee29f455" target="_blank"><i class="fa fa-map-marker"></i> 台灣科技大學</a></span></h2>
          </div>
          <hr>
          <div class="three columns header-col">
-            <h3 class="date"><span>7/6 (日)</span></h3>
-            <span>第零章：時空風暴</span>
+            <h3 class="date"><span>7/6 (SUN)</span></h3>
+            <span>第零章 | 時空風暴</span>
          </div>
 
          <div class="nine columns main-col">
@@ -202,11 +221,11 @@
                </div>
 
                <div class="seven columns">
-                  <h5>報到</h5>
+                  <h5>學員報到</h5>
                </div>
 
                <div class="two columns">
-                  <em>E2-102</em>
+                  <em>E2-324</em>
                </div>
             </div> <!-- program-row end -->
 
@@ -216,8 +235,7 @@
                </div>
 
                <div class="nine columns">
-                  <h5>故事開場</h5>
-                  <p>TBA</p>
+                  <h5>OpenHCI 2014 前置工作坊開場與說明</h5>
                </div>
             </div> <!-- program-row end -->
 
@@ -227,7 +245,7 @@
                </div>
 
                <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 1</h5>
+                  <h5>實作教程 I</h5>
                </div>
             </div> <!-- program-row end -->
 
@@ -237,27 +255,27 @@
                </div>
 
                <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 2</h5>
+                  <h5>實作教程 II</h5>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">13:00 - 13:10</h5>
+                  <h5 class="time">11:40 - 13:00</h5>
                </div>
 
                <div class="nine columns">
-                  <h5>時空風暴</h5>
+                  <h5>午餐交流</h5>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">13:10 - 14:00</h5>
+                  <h5 class="time">13:00 - 14:00</h5>
                </div>
 
                <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 3</h5>
+                  <h5>實作教程 III</h5>
                </div>
             </div> <!-- program-row end -->
 
@@ -267,7 +285,7 @@
                </div>
 
                <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 4</h5>
+                  <h5>實作教程 IV</h5>
                </div>
             </div> <!-- program-row end -->
 
@@ -277,7 +295,144 @@
                </div>
 
                <div class="nine columns">
-                  <h5>實作練習</h5>
+                  <h5>團隊實作作業</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">16:30 - 18:00</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>挑戰時間</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+         </div> <!-- main-col end -->
+      </div> <!-- End Program -->
+
+      <div class="row">
+         <hr class="line">
+         <div class="three columns header-col">
+            <h3 class="date"><span>7/7 (MON)</span></h3>
+            <span>第一章 | 平行世界的誕生</span>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">08:30 - 09:00</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>學員、VIP、Passport 報到</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>IB-301</em>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:00 - 09:20</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>開幕式 & 開幕致詞</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/jones.jpg">
+                  </div>
+                  <h6>余能豪</h6>
+                  <p>
+                     <span>國立政治大學資訊科學系 助理教授</span>
+                  </p>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:20 - 09:30</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>工作坊說明</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:30 - 10:30</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
+               </div>
+
+               <div class="nine columns">
+                  <h5>Talk / HCI Trends</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/mike.jpg">
+                  </div>
+                  <h6>陳彥仰</h6>
+                  <p>
+                     <span>台大資工行動人機介面實驗室指導教授</span><br>
+                     <span>曾任職 Intel Research Seattle 與矽谷 Ludic Labs</span>
+                  </p>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">10:50 - 11:50</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
+               </div>
+
+               <div class="nine columns">
+                  <h5>Talk / 場域觀察法 Field Observation</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/ts.jpg">
+                  </div>
+                  <h6>蔡志浩</h6>
+                  <p>
+                     <span>臺灣使用者經驗設計協會理事長</span>
+                  </p>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">13:00 - 13:50</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>主題發想</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>RB-409~411</em>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">14:00 - 14:50</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>各組5分鐘初步提案</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">15:00 - 17:30</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>實地場域觀察</h5>
                </div>
             </div> <!-- program-row end -->
 
@@ -297,8 +452,8 @@
       <div class="row">
          <hr class="line">
          <div class="three columns header-col">
-            <h3 class="date"><span>7/07 (ㄧ)</span></h3>
-            <span>第一章：平行世界的誕生</span>
+            <h3 class="date"><span>7/8 (TUE)</span></h3>
+            <span>第二章 | LAG 因子的無限想像</span>
          </div>
 
          <div class="nine columns main-col">
@@ -308,95 +463,387 @@
                </div>
 
                <div class="seven columns">
-                  <h5>報到</h5>
+                  <h5>學員、VIP、Passport 報到</h5>
                </div>
 
                <div class="two columns">
-                  <em>E2-102</em>
+                  <em>IB-301</em>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">09:00 - 09:20</h5>
+                  <h5 class="time">09:00 - 09:10</h5>
                </div>
 
                <div class="nine columns">
-                  <h5>故事開場</h5>
-                  <p>TBA</p>
+                  <h5>流程說明</h5>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">09:20 - 10:20</h5>
+                  <h5 class="time">09:10 - 09:40</h5>
                </div>
 
                <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 1</h5>
+                  <h5>前情提要：各組發表3分鐘</h5>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">10:40 - 11:40</h5>
+                  <h5 class="time">09:30 - 10:30</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
                </div>
 
                <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 2</h5>
+                  <h5>Talk / UX Culture in a Start-up Company</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/kai.jpg">
+                  </div>
+                  <h6>鄭鎧尹</h6>
+                  <p>
+                     <span>LIVEhouse.in / iKala 產品設計總監</span>
+                  </p>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">13:00 - 13:10</h5>
+                  <h5 class="time">11:10 - 12:10</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
                </div>
 
                <div class="nine columns">
-                  <h5>時空風暴</h5>
+                  <h5>Talk / 服務設計與使用者經驗</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/wan.jpg">
+                  </div>
+                  <h6>汪建均</h6>
+                  <p>
+                     <span>charger / changer 深擊設計管理</span><br>
+                     <span>Strategy Director 策略總監</span>
+                  </p>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">13:10 - 14:00</h5>
+                  <h5 class="time">13:00 - 14:30</h5>
                </div>
 
-               <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 3</h5>
-               </div>
-            </div> <!-- program-row end -->
-
-            <div class="row program-row">
-               <div class="three columns">
-                  <h5 class="time">14:10 - 15:10</h5>
+               <div class="seven columns">
+                  <h5>主題發想 & 準備中間提報</h5>
                </div>
 
-               <div class="nine columns">
-                  <h5>開發者 HCI 工具實作教程 4</h5>
+               <div class="two columns">
+                  <em>RB-409~411</em>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">15:30 - 16:30</h5>
+                  <h5 class="time">14:30 - 17:00</h5>
                </div>
 
-               <div class="nine columns">
-                  <h5>實作練習</h5>
+               <div class="seven columns">
+                  <h5>各組 10 分鐘提案審查</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>IB-301</em>
                </div>
             </div> <!-- program-row end -->
 
             <div class="row program-row">
                <div class="three columns">
-                  <h5 class="time">16:30 - 17:30</h5>
+                  <h5 class="time">17:00 - 17:30</h5>
                </div>
 
                <div class="nine columns">
-                  <h5>挑戰時間</h5>
+                  <h5>評審回饋</h5>
+               </div>
+            </div> <!-- program-row end -->
+         </div> <!-- main-col end -->
+      </div> <!-- End Program -->
+
+      <div class="row">
+         <hr class="line">
+         <div class="three columns header-col">
+            <h3 class="date"><span>7/9 (WED)</span></h3>
+            <span>第三章 | 新文明的降生與異變</span>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">08:30 - 09:00</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>學員、VIP、Passport 報到</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>IB-301</em>
                </div>
             </div> <!-- program-row end -->
 
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:00 - 09:10</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>流程說明</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:10 - 09:20</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>前情提要：各組分享</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:30 - 10:30</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
+               </div>
+
+               <div class="nine columns">
+                  <h5>Talk / 設計理論與社會實務</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/figure.jpg">
+                  </div>
+                  <h6>蔡敦仁</h6>
+                  <p>
+                     <span>臺灣科技大學 兼任助理教授</span><br>
+                     <span>三創數位育成中心 設計工程實驗室經理</span>
+                  </p>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">10:50 - 11:50</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
+               </div>
+
+               <div class="nine columns">
+                  <h5>Talk / 設計與虛構</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/jazzliang.jpg">
+                  </div>
+                  <h6>梁容輝</h6>
+                  <p>
+                     <span>臺灣科技大學 工商業設計系副教授</span>
+                  </p>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">13:00 - 14:00</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>數位工具之應用教學</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>RB-409~411</em>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">14:00 - 17:30</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>各組實作時間</h5>
+               </div>
+            </div> <!-- program-row end -->
+         </div> <!-- main-col end -->
+      </div> <!-- End Program -->
+
+      <div class="row">
+         <hr class="line">
+         <div class="three columns header-col">
+            <h3 class="date"><span>7/10 (THR)</span></h3>
+            <span>第四章 | 時空校正的倒數計時</span>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">08:30 - 09:00</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>學員、VIP、Passport 報到</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>IB-301</em>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:00 - 09:10</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>流程說明</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:10 - 09:20</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>前情提要：各組分享</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:30 - 10:30</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
+               </div>
+
+               <div class="nine columns">
+                  <h5>Talk / 數位製造與 Maker</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/cheng.jpg">
+                  </div>
+                  <h6>鄭鴻旗</h6>
+                  <p>
+                     <span>OpenLab Taipei</span>
+                  </p>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">10:50 - 11:50</h5>
+                  <div class="passport">
+                     <img src="/2014/images/openhci2014/passport.png">
+                  </div>
+               </div>
+
+               <div class="nine columns">
+                  <h5>Talk / 互動廣告創意</h5>
+                  <div class="speaker-avatar">
+                     <img src="/2014/images/speakers/son.jpg">
+                  </div>
+                  <h6>宋恆</h6>
+                  <p>
+                     <span>不來梅網路公司互動總監</span>
+                  </p>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">13:00 - 17:30</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>各組發想 x 實作 x 爭執時間</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>RB-409~411</em>
+               </div>
+            </div> <!-- program-row end -->
+         </div> <!-- main-col end -->
+      </div> <!-- End Program -->
+
+      <div class="row">
+         <hr class="line">
+         <div class="three columns header-col">
+            <h3 class="date"><span>7/11 (FRI)</span></h3>
+            <span>第五章 | Lagontology</span>
+         </div>
+
+         <div class="nine columns main-col">
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">08:30 - 09:00</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>學員報到</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>RB-409~411</em>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">09:00 - 10:40</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>各組實作時間</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">10:40 - 12:00</h5>
+               </div>
+
+               <div class="seven columns">
+                  <h5>展覽會場佈置</h5>
+               </div>
+
+               <div class="two columns">
+                  <em>IB-1F 展場</em>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">15:10 - 17:00</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>互動成果展示</h5>
+               </div>
+            </div> <!-- program-row end -->
+
+            <div class="row program-row">
+               <div class="three columns">
+                  <h5 class="time">17:00 - 18:00</h5>
+               </div>
+
+               <div class="nine columns">
+                  <h5>頒獎典禮 & 閉幕</h5>
+               </div>
+            </div> <!-- program-row end -->
          </div> <!-- main-col end -->
       </div> <!-- End Program -->
    </section><!-- Program Section End-->
@@ -414,7 +861,8 @@
          <div class="ten columns">
             <h2>歡迎報名 OpenHCI 2014 - 工作坊學員</h2>
             <hr>
-            <h3><span>報名時間<span></h3>
+            <a class="button disabled"><i class="fa fa-clock-o"></i> 尚未開放報名</a>
+            <h3><span>報名時間 - 即將開始！<span></h3>
             <div class="content">
                <span>&#9864; 線上報名時間： 06/13 (五) 晚上 12 點 至 06/20 (五) 晚上 12 點前 </span><br>
                <span>&#9864; 正/備取名單公佈：6/23 (一) 網路公佈與信件通知，請自行上網查看 </span><br>
@@ -449,9 +897,9 @@
                <span class="indent">請舉出兩個觀察經驗，說明生活中任何能夠用「ＬＡＧ」去轉化或詮釋的現象，
                不論是生活中、時間或空間、溝通或情感，這個現象造成了什麼「問題」，以及你想到了什麼「方法」改變它，每段經驗敘述以200字為限並以一張圖表示或輔助說明。
                </span><br>
-               <span class="indent">&#9741; iDCard 空白模板 : <a href="https://docs.google.com/file/d/0B71nphveAC92Tkt6NGJkMS1wdHc/edit" target="_blank">Empty Template</a> </span><br>
-               <span class="indent">&#9741; iDCard 範例一 :   <a href="https://docs.google.com/file/d/0B71nphveAC92b05IWF91V3B4SE0/edit" target="_blank">Example 1</a> </span><br>
-               <span class="indent">&#9741; iDCard 範例二 :   <a href="https://docs.google.com/file/d/0B71nphveAC92NHNyN3pmNkpmdjA/edit" target="_blank">Example 2</a> </span><br>
+               <span class="indent">&#9741; iDCard 空白模板 : <a href="https://docs.google.com/file/d/0B71nphveAC92OWtGQXlOOG1zWGs/edit" target="_blank">Empty Template</a> </span><br>
+               <span class="indent">&#9741; iDCard 範例一 :   <a href="https://docs.google.com/file/d/0B71nphveAC92aHlaNHFIdWw1NWs/edit" target="_blank">Example 1</a> </span><br>
+               <span class="indent">&#9741; iDCard 範例二 :   <a href="https://docs.google.com/file/d/0B71nphveAC92YWxLNkRUb2RJY2c/edit" target="_blank">Example 2</a> </span><br>
                <span class="indent">請收集與上述經驗有關之圖片，製作成iDCard。</span><br>
             </div>
             <h3><span>報名保證金須知<span></h3>
@@ -488,7 +936,7 @@
       <hr>
       <div class="row crew-row">
          <div class="six columns crew-cell">
-            <h2><span>Program</span></h2>
+            <h2><span>Program</span><a href="mailto:program@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>陳建方</span></p>
@@ -516,7 +964,7 @@
          </div>
 
          <div class="six columns crew-cell">
-            <h2><span>Sponsorship</span></h2>
+            <h2><span>Sponsorship</span><a href="mailto:sponsor@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>姜翰廷</span></p>
@@ -526,18 +974,6 @@
                   <p>
                      <span>國立清華大學 資訊工程學系 碩士班</span><br>
                      <span>指導教授 王浩全老師</span>
-                  </p>
-               </div>
-            </div>
-            <div class="row member">
-               <div class="two columns">
-                  <p class="name"><span>劉東昇</span></p>
-               </div>
-
-               <div class="ten columns">
-                  <p>
-                     <span>國立台北科技大學 創新設計所 碩士班</span><br>
-                     <span>指導教授 陳殿禮老師</span>
                   </p>
                </div>
             </div>
@@ -569,7 +1005,7 @@
       </div>
       <div class="row crew-row">
          <div class="six columns crew-cell">
-            <h2><span>Tech</span></h2>
+            <h2><span>Tech</span><a href="mailto:tech@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>王柏皓</span></p>
@@ -609,7 +1045,7 @@
          </div>
 
          <div class="six columns crew-cell">
-            <h2><span>Web Service</span></h2>
+            <h2><span>Web Service</span><a href="mailto:web@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>郭瀚智</span></p>
@@ -638,7 +1074,7 @@
       </div>
       <div class="row crew-row">
          <div class="six columns crew-cell">
-            <h2><span>Exhibition / Demo</span></h2>
+            <h2><span>Exhibition / Demo</span><a href="mailto:demo@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>劉宥佳</span></p>
@@ -666,7 +1102,7 @@
          </div>
 
          <div class="six columns crew-cell">
-            <h2><span>Human Resource</span></h2>
+            <h2><span>Human Resource</span><a href="mailto:human@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>蔡丞恩</span></p>
@@ -707,7 +1143,7 @@
       </div>
       <div class="row crew-row">
          <div class="six columns crew-cell">
-            <h2><span>Lecture</span></h2>
+            <h2><span>Lecture</span><a href="mailto:lecture@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>王瀚宇</span></p>
@@ -764,7 +1200,7 @@
       </div>
       <div class="row crew-row">
          <div class="six columns crew-cell">
-            <h2><span>General Affair</span></h2>
+            <h2><span>General Affair</span><a href="mailto:general@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>姚紀徽</span></p>
@@ -780,7 +1216,7 @@
          </div>
 
          <div class="six columns crew-cell">
-            <h2><span>Publicity</span></h2>
+            <h2><span>Publicity</span><a href="mailto:publicity@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>李安婷</span></p>
@@ -809,7 +1245,7 @@
       </div>
       <div class="row crew-row">
          <div class="six columns crew-cell">
-            <h2><span>Visual Design</span></h2>
+            <h2><span>Graphical Design</span><a href="mailto:graphic@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                <div class="two columns">
                   <p class="name"><span>林浩翔</span></p>
@@ -837,7 +1273,7 @@
          </div>
 
          <div class="six columns crew-cell">
-            <h2><span>Steering</span></h2>
+            <h2><span>Steering</span><a href="mailto:steering@openhci.com"><i class="fa fa-envelope-o"></i></a></h2>
             <div class="row member">
                
             </div>
@@ -862,285 +1298,103 @@
 
           	   <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-01" title="">
-                        <img alt="" src="/2014/images/sponsors/ntucsie.png">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>NTU CSIE</h5>
-                              <p>國立台灣大學資訊工程學系</p>
-          					   </div>
-                        </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     <img alt="" src="/2014/images/sponsors/ntucsie_square.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+       					      <h5>NTU CSIE</h5>
+                           <p>國立台灣大學 資訊工程學系</p>
+       					   </div>
+                     </div>
                   </div>
           		</div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-02" title="">
-                        <img alt="" src="/2014/images/portfolio/console.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Console</h5>
-                              <p>Web Development</p>
-          					   </div>
+                     <img alt="" src="/2014/images/sponsors/nccudct_square.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>NCCU DCT</h5>
+                           <p>國立政治大學 數位內容學位學程</p>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     </div>
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-03" title="">
-                        <img alt="" src="/2014/images/portfolio/judah.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Judah</h5>
-                              <p>Webdesign</p>
-          					   </div>
+                     <img alt="" src="/2014/images/sponsors/ntustidcd_logo_square.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>NTUST IDCD</h5>
+                           <p>國立台灣科技大學 工商業設計系</p>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     </div>
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-04" title="">
-                        <img alt="" src="/2014/images/portfolio/into-the-light.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Into The Light</h5>
-                              <p>Photography</p>
-          					   </div>
+                     <img alt="" src="/2014/images/sponsors/ginm_logo_square.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>NTU GINM</h5>
+                           <p>國立台灣大學 資訊網路與多媒體研究所</p>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     </div>
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-05" title="">
-                        <img alt="" src="/2014/images/portfolio/farmerboy.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Farmer Boy</h5>
-                              <p>Branding</p>
-          					   </div>
+                     <img alt="" src="/2014/images/sponsors/idae.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>IDAE</h5>
+                           <p>Innovative Design & Applications Electronics</p>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     </div>
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-06" title="">
-                        <img alt="" src="/2014/images/portfolio/girl.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Girl</h5>
-                              <p>Photography</p>
-          					   </div>
+                     <img alt="" src="/2014/images/sponsors/aja.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>AJA Creative</h5>
+                           <p>大予創意設計</p>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     </div>
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-07" title="">
-                        <img alt="" src="/2014/images/portfolio/origami.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Origami</h5>
-                              <p>Illustrration</p>
-          					   </div>
+                     <img alt="" src="/2014/images/sponsors/skymizer.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>Skymizer</h5>
+                           <p>Skymizer</p>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     </div>
                   </div>
-          		</div> <!-- item end -->
+               </div> <!-- item end -->
 
                <div class="columns portfolio-item">
                   <div class="item-wrap">
-
-                     <a href="#modal-08" title="">
-                        <img alt="" src="/2014/images/portfolio/retrocam.jpg">
-                        <div class="overlay">
-                           <div class="portfolio-item-meta">
-          					      <h5>Retrocam</h5>
-                              <p>Web Development</p>
-          					   </div>
+                     <img alt="" src="/2014/images/sponsors/user_xper.png">
+                     <div class="overlay">
+                        <div class="portfolio-item-meta">
+                           <h5>UserXper</h5>
+                           <p>悠識</p>
                         </div>
-                        <div class="link-icon"><i class="icon-plus"></i></div>
-                     </a>
-
+                     </div>
                   </div>
-          		</div>  <!-- item end -->
+               </div> <!-- item end -->
 
             </div> <!-- portfolio-wrapper end -->
 
          </div> <!-- twelve columns end -->
-
-
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
-
-         <div id="modal-01" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-coffee.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="/2014/images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
       </div> <!-- row End -->
 
    </section> <!-- Portfolio Section End-->
@@ -1159,12 +1413,9 @@
             </div>
 
             <div class="ten columns">
-
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                  </p>
-
+               <h4>Email : <a href="mailto:program@openhci.com">program@openhci.com</a></h4>
+               <h4>Facebook Page : <a href="https://www.facebook.com/pages/Open-HCI-%E4%BA%BA%E6%A9%9F%E4%BA%92%E5%8B%95%E5%B7%A5%E4%BD%9C%E5%9D%8A/711503132244489" target="_blank">Open HCI 人機互動工作坊</a></h4>
+               <h4>OpenHCI : <a href="/" target="_blank">2014</a> | <a href="/2013" target="_blank">2013</a> | <a href="/2012" target="_blank">2012</a> | <a href="/2011" target="_blank">2011</a> | <a href="/2009" target="_blank">2009</a></h4>
             </div>
 
          </div>
@@ -1174,33 +1425,36 @@
    <!-- footer
    ================================================== -->
    <footer>
-
       <div class="row">
-
          <div class="twelve columns">
 
             <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li> -->
+               <li><a class="smoothscroll" title="Back to Top" href="#home"><img src="/2014/images/openhci2014/openhci_logo_blue.png" width="80" height="90"></a></li>
             </ul>
 
             <ul class="copyright">
                <li>&copy; Copyright 2014 OpenHCI.</li>
                <!-- <li>Design by <a href="http://andikan.github.io/">Andikan</a></li>    -->
             </ul>
-
          </div>
 
          <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
       </div>
-
    </footer> <!-- Footer End-->
+
+
+   <!-- Google Analytics code
+   ================================================== -->
+   <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+     ga('create', 'UA-51743643-1', 'openhci.com');
+     ga('send', 'pageview');
+   </script>
+   
 
    <!-- Java Script
    ================================================== -->
@@ -1212,9 +1466,7 @@
    <script src="/2014/js/jquery.stellar.min.js"></script>
    <script src="/2014/js/waypoints.js"></script>
    <script src="/2014/js/jquery.fittext.js"></script>
-   <script src="/2014/js/magnific-popup.js"></script>
    <script src="/2014/js/init.js"></script>
-
 </body>
 
 </html>

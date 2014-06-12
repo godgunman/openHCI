@@ -40,6 +40,10 @@
       width: 65%;
       margin: 12px auto;
    }
+   header .logo-5th {
+      display: none;
+   }
+
    /* nav-wrap */
    #nav-wrap {
       font: 11px 'opensans-bold', sans-serif;
@@ -56,6 +60,7 @@
    }
    #about .contact-details { width: 50%; }
    #about .download { width: 50%; }
+
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -97,6 +102,10 @@
 
 @media only screen and (max-width: 767px) {
 
+   #program .passport {
+      display: none;
+   }
+
    /* mobile navigation
    -------------------------------------------------------------------- */
    #nav-wrap {
@@ -112,7 +121,8 @@
 	   width: 48px;
 		height: 48px;
 		text-align: left;
-		background-color: #CC5200;
+		/*background-color: #CC5200;*/
+      background-color: rgba(249, 191, 59, 0.8);
 		position: relative;
       border: none;
       float: right;

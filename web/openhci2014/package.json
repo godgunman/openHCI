@@ -1,0 +1,19 @@
+{
+  "name": "openhci2014",
+  "version": "0.0.0",
+  "description": "OpenHCI 2014",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "andikan",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.8.0",
+    "gulp-rename": "^1.2.0",
+    "gulp-concat": "^2.2.0",
+    "gulp-uglify": "^0.3.0",
+    "gulp-jshint": "^1.6.2",
+    "gulp-sass": "^0.7.2"
+  }
+}
