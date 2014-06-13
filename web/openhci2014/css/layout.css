@@ -136,7 +136,12 @@ header .logo {
   position: absolute;
   top: 12%;
   width: 100%;
-  min-height: 106px;
+}
+
+header .logo img {
+  width: 6%;
+  max-width: 70px;
+  min-width: 65px;
 }
 
 header .logo-5th {
@@ -279,7 +284,7 @@ ul#nav li.current a { color: rgba(54, 215, 183, 0.9); }
 
 #video {
   height: auto;
-  pa
+  background: #BDC3C7;
 }
 
 
@@ -435,6 +440,7 @@ ul#nav li.current a { color: rgba(54, 215, 183, 0.9); }
 #about-us .member .name {
   font-weight: bold;
   color: #049372;
+  white-space: nowrap;
 }
 
 /* ------------------------------------------------------------------ */
