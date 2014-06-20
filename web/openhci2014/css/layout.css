@@ -374,7 +374,7 @@ ul#nav li.current a { color: rgba(54, 215, 183, 0.9); }
   width: 83.6px;
   height: 76.8px;
   float: left;
-  margin-top: 5px;
+  margin-top: 50%;
   overflow: hidden;
 }
 
@@ -908,6 +908,9 @@ ul#nav li.current a { color: rgba(54, 215, 183, 0.9); }
   cursor: not-allowed;
 }
 
+#registration .apply-info {
+  padding-bottom: 60px;
+}
 /* ------------------------------------------------------------------ */
 /* f. Call To Action Section
 /* ------------------------------------------------------------------ */
@@ -1303,6 +1306,11 @@ footer .copyright li:before {
 }
 footer .copyright  li:first-child:before {
     display: none;
+}
+
+footer .styleshout {
+    font-size: 30%;
+    opacity: 0.1;
 }
 
 /* social links */

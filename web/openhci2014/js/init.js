@@ -24,7 +24,13 @@
     }, 700);
   });
 
-
+  $('#andi').mouseleave(function() {
+    $(this).addClass('animated hinge');
+    setTimeout(function() {
+      $('#andi').removeClass('animated hinge');
+      $('#andi').addClass('animated bounceInDown');
+    }, 2500);
+  });
 
 
 /*----------------------------------------------------*/
