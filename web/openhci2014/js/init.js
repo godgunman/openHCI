@@ -96,12 +96,18 @@
 /*	Make sure that #header-background-image height is
 /* equal to the browser height.
 ------------------------------------------------------ */
-
-   $('header').css({ 'height': $(window).height() });
+   var windowHeight = $(window).height();
+   var report_bookHeight = windowHeight - 48;
+   $('header').css({ 'height': windowHeight });
+   $('#final_ending_video').css({ 'height': report_bookHeight });
+   $('#report_book').css({ 'height': windowHeight });
    $(window).on('resize', function() {
-
-        $('header').css({ 'height': $(window).height() });
-        $('body').css({ 'width': $(window).width() })
+        windowHeight = $(window).height();
+        report_bookHeight = windowHeight - 48;
+        $('header').css({ 'height': windowHeight });
+        $('#final_ending_video').css({ 'height': report_bookHeight });
+        $('#report_book').css({ 'height': windowHeight });
+        $('body').css({ 'width': $(window).width() });
    });
 
 
